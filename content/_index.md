@@ -46,9 +46,12 @@ sections:
   - blocks: collection
     content:
       title: News
-      text: ' - Happy to announce
-
-          - one paper has been !
+      text: '- [24.03] A paper accepted by NAACL 2024
+          - [24.01] A paper accepted by ICLR 2024
+          - [23.10] We release GAIA demo
+          - [23.10] A paper accepted by FMDM@NeurIPS 2023
+          - [23.05] Start internship in MSRA ML Group
+          - [22.09] Join in Lanco Lab, Peking University
           '
     design:
         columns: '2'
