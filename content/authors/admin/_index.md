@@ -36,10 +36,10 @@ interests:
 # Education to show in About widget
 education:
   courses:
-    - course: Master in Peking University
-      institution: Lanco Lab, lead by Prof. Xu Sun
-    - course: BSc in Fudan University
-      institution: 'School of Data Science      Rank: 4/84'
+    - course: Master in Data Science, Peking University, 2025(Expected)
+      institution: Academy for Advanced Interdisciplinary Studies, Lanco Lab
+    - course: BSc in Data Science, Fudan University, 2022
+      institution: 'School of Data Science, GPA Rank: 4/84'
 
 social:
   - icon: envelope
@@ -70,6 +70,6 @@ social:
 # Highlight the author in author lists? (true/false)
 highlight_name: true
 ---
-Hi! I'm a master student at Lanco, MOE Key Laboratory of Computational Linguistics, AAIS, Peking University, under the surpervision of Prof. Xu Sun. Before that, I receive the degree of Bachelor from the school of data science, Fudan University.
+Hi! I'm a master student at [Lanco Lab](https://lancopku.github.io/), [Peking University](https://english.pku.edu.cn/), under the surpervision of Prof. [Xu Sun](https://xusun26.github.io/). Before that, I receive the degree of Bachelor from the school of data science, [Fudan University](https://www.fudan.edu.cn/en/).
 
 My research interests lie within (1) Multimodal learning (2) Generative AI and (3) LLM (large language models).
