@@ -1,9 +1,9 @@
 ---
 # Display name
-title: 王宇驰
+title: Yuchi Wang
 
 # Name pronunciation (optional)
-name_pronunciation: Yuchi Wang
+name_pronunciation: 
 
 # Full name (for SEO)
 first_name: Yuchi
