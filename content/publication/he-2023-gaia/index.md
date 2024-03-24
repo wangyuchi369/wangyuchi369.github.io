@@ -47,7 +47,10 @@ larger models yield better results; 3) it is general and enables different appli
 like controllable talking avatar generation and text-instructed avatar generation.'
 
 # Summary. An optional shortened abstract.
-summary: 
+summary: 'Previous talking avatar generation methods have relied on domain-specific heuristics such as warping-based motion representation and 3D Morphable Models, which limit the naturalness and diversity of the generated avatars. In this work, we introduce GAIA (Generative AI for Avatar), which eliminates the domain priors in talking avatar generation. We disentangle each frame into motion and
+appearance representations and collect a large-scale high-quality talking
+avatar dataset to train our model.
+Experimental results verify the superiority, scalability, and flexibility of GAIA.'
 
 tags: []
 
@@ -56,14 +59,14 @@ featured: true
 
 # Custom links (uncomment lines below)
 # links:
-# - name: Custom Link
-#   url: http://example.org
+- name: Demo Page
+  url: https://microsoft.github.io/GAIA
 
 url_pdf: 'https://arxiv.org/pdf/2311.15230.pdf'
 url_code: ''
 url_dataset: ''
 url_poster: ''
-url_project: 'https://microsoft.github.io/GAIA'
+url_project: ''
 url_slides: ''
 url_source: ''
 url_video: ''
@@ -73,7 +76,7 @@ url_video: ''
 image:
   caption: 'Example sentence pairs in the MultiSim dataset in English, Japanese, Urdu, and Russian'
   focal_point: ''
-  preview_only: false
+  preview_only: true
 
 # Associated Projects (optional).
 #   Associate this publication with one or more of your projects.
