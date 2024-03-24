@@ -43,12 +43,16 @@ sections:
       # Choose a user profile to display (a folder name within `content/authors/`)
       username: admin
 
-  - blocks: News
+  - blocks: collection
     content:
-    title: News
-    text: ' - Happy to announce
+      title: News
+      text: ' - Happy to announce
           - Hello!
-         '
+          '
+    design:
+        columns: '1'
+
+
   # - block: skills
   #   content:
   #     title: Skills
