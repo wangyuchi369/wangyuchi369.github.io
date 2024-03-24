@@ -13,7 +13,7 @@ authors:
 - Shuhuai Ren
 - Haozhe Zhao
 - Zefan Cai
-- Yuchi Wang
+- admin
 - Peiyi Wang
 - Tianyu Liu
 - Baobao Chang
