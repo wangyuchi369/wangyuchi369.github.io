@@ -47,10 +47,11 @@ sections:
     content:
       title: News
       text: ' - Happy to announce
-          - Hello!
+
+          - one paper has been !
           '
     design:
-        columns: '1'
+        columns: '2'
 
 
   # - block: skills
