@@ -38,10 +38,10 @@ education:
   courses:
     - course: Master in Data Scienece
       institution: AAIS in Peking University
-      year: 2025
+      year: 2022
     - course: BSc in Data Scienece
       institution: [School of Data Science, Fudan University](https://sds.fudan.edu.cn/)
-      year: 2022
+      year: 2018
       text: hello
 
 social:
@@ -73,5 +73,6 @@ social:
 # Highlight the author in author lists? (true/false)
 highlight_name: true
 ---
-Chien Shiung Wu is a professor of artificial intelligence at the Stanford AI Lab. Her research interests include distributed robotics, mobile computing and programmable matter. She leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.
-{style="text-align: justify;"}
+Hi! I'm a master student at Lanco, MOE Key Laboratory of Computational Linguistics, AAIS, Peking University, under the surpervision of Prof. Xu Sun. Before that, I receive the degree of Bachelor from the school of data science, Fudan University.
+
+My research interests lie within (1) Multimodal learning (2) Generative AI and (3) LLM (large language models).
