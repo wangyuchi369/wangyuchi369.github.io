@@ -42,7 +42,6 @@ education:
     - course: BSc in Data Scienece
       institution: [School of Data Science, Fudan University](https://sds.fudan.edu.cn/)
       year: 2018
-      text: hello
 
 social:
   - icon: envelope
