@@ -38,7 +38,7 @@ education:
   courses:
     - course: Master in Data Scienece
       institution: AAIS in Peking University
-      year: 2025 (Expected)
+      year: 2025
     - course: BSc in Data Scienece
       institution: [School of Data Science, Fudan University](https://sds.fudan.edu.cn/)
       year: 2022
@@ -47,19 +47,19 @@ education:
 social:
   - icon: envelope
     icon_pack: fas
-    link: '/#contact'
+    link: 'wangyuchi369@gmail.com'
   - icon: google-scholar # Alternatively, use `google-scholar` icon from `ai` icon pack
     icon_pack: ai
-    link: https://scholar.google.co.uk/citations?user=sIwtMXoAAAAJ
+    link: https://scholar.google.com.hk/citations?user=RxuU_0YAAAAJ&hl=zh-CN
   - icon: github
     icon_pack: fab
-    link: https://github.com/gcushen
+    link: https://github.com/wangyuchi369
   - icon: linkedin
     icon_pack: fab
-    link: https://www.linkedin.com/
+    link: https://www.linkedin.com/in/yuchi-wang-33b970230/
   - icon: twitter
     icon_pack: fab
-    link: https://twitter.com/GeorgeCushen
+    link: https://twitter.com/wangyuchi369
     label: Follow me on Twitter
     display:
       header: true
