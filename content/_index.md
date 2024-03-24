@@ -198,15 +198,12 @@ sections:
           - publication
         featured_only: true
     design:
-      columns: '3'
-      view: card
+      columns: '1'
+      view: compact
+
   - block: collection
     content:
       title: All Publications
-      text: |-
-        {{% callout note %}}
-        Quickly discover relevant content by [filtering publications](./publication/).
-        {{% /callout %}}
       filters:
         folders:
           - publication
