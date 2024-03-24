@@ -1,5 +1,5 @@
 ---
-title: GAIA: Zero-shot Talking Avatar Generation
+title: 'GAIA: Zero-shot Talking Avatar Generation'
 
 
 # Authors
