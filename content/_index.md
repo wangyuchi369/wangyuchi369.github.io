@@ -202,6 +202,7 @@ sections:
       view: card
 
   - block: collection
+    id: research
     content:
       title: All Publications
       filters:
@@ -210,7 +211,7 @@ sections:
         exclude_featured: false
     design:
       columns: '2'
-      view: list
+      view: card
 
   - block: collection
     id: talks
