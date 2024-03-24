@@ -36,12 +36,10 @@ interests:
 # Education to show in About widget
 education:
   courses:
-    - course: Master in Data Scienece
-      institution: AAIS in Peking University
-      year: 2022
-    - course: BSc in Data Scienece
-      institution: [School of Data Science, Fudan University](https://sds.fudan.edu.cn/)
-      year: 2018
+    - course: Master in Peking University
+      institution: Lanco Lab, lead by Prof. Xu Sun
+    - course: BSc in Fudan University
+      institution: 'School of Data Science      Rank: 4/84'
 
 social:
   - icon: envelope
