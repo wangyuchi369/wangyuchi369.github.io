@@ -248,7 +248,7 @@ sections:
         - title: Researcher Intern
           company: Microsoft Research Asia  (MSRA)
           company_url: 'https://www.microsoft.com/en-us/'
-          company_logo: msft.svg
+          company_logo: MSFT
           location: Beijing, China
           date_start: '2023-05'
           date_end: 'Now'
