@@ -198,8 +198,8 @@ sections:
           - publication
         featured_only: true
     design:
-      columns: '1'
-      view: compact
+      columns: '2'
+      view: list
 
   - block: collection
     content:
