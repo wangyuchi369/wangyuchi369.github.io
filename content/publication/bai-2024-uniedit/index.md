@@ -36,7 +36,7 @@ tags: []
 featured: false
 
 # Custom links (uncomment lines below)
-# links:
+links:
 - name: Demo Page
   url: https://github.com/JianhongBai/UniEdit
 

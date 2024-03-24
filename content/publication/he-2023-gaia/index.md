@@ -58,7 +58,7 @@ tags: []
 featured: true
 
 # Custom links (uncomment lines below)
-# links:
+links:
 - name: Demo Page
   url: https://microsoft.github.io/GAIA
 
