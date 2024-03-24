@@ -225,16 +225,7 @@ sections:
       columns: '2'
       view: compact
 
-  - block: collection
-    id: talks
-    content:
-      title: Academic Service
-      filters:
-        folders:
-          - event
-    design:
-      columns: '2'
-      view: compact
+
 
   # - block: tag_cloud
   #   content:
@@ -255,7 +246,7 @@ sections:
       #   Leave `date_end` empty if it's your current employer.
       #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
       items:
-        - title: Researcher Intern
+        - title: Research Intern
           company: Microsoft Research Asia  (MSRA)
           company_url: 'https://www.microsoft.com/en-us/'
           company_logo: MSFT
@@ -263,7 +254,8 @@ sections:
           date_start: '2023-05-01'
           date_end: ''
           description: |2-
-              * Designed and programmed static analysis tool in C++ for identifying security vulnerabilities throughout Windows OS.
+              * Happy to join the ML group, mentored by [Junliang Guo](https://lemmonation.github.io/) and Xu Tan. 
+              * During internship till now, I mainly focus on generative learning, like talking avatar generation, video generation/editing. 
         # - title: Software Engineer Intern
         #   company: Microsoft Corporation
         #   company_url: 'https://www.microsoft.com/en-us/'
@@ -277,6 +269,18 @@ sections:
 
     design:
       columns: '2'
+
+
+  - block: collection
+    id: talks
+    content:
+      title: Academic Service
+      filters:
+        folders:
+          - event
+    design:
+      columns: '2'
+      view: compact
 
   # - block: contact
   #   id: contact

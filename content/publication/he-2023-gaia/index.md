@@ -1,5 +1,5 @@
 ---
-title: 'GAIA: Zero-shot Talking Avatar Generation'
+title: '[ICLR 2024] GAIA: Zero-shot Talking Avatar Generation'
 
 
 # Authors
@@ -47,10 +47,9 @@ larger models yield better results; 3) it is general and enables different appli
 like controllable talking avatar generation and text-instructed avatar generation.'
 
 # Summary. An optional shortened abstract.
-summary: 'Previous talking avatar generation methods have relied on domain-specific heuristics such as warping-based motion representation and 3D Morphable Models, which limit the naturalness and diversity of the generated avatars. In this work, we introduce GAIA (Generative AI for Avatar), which eliminates the domain priors in talking avatar generation. We disentangle each frame into motion and
+summary: 'A project in MSRA. We disentangle each frame into motion and
 appearance representations and collect a large-scale high-quality talking
-avatar dataset to train our model.
-Experimental results verify the superiority, scalability, and flexibility of GAIA.'
+avatar dataset for training our GAIA model. It demonstrates amazing naturalness and shows scalability of our model.'
 
 tags: []
 

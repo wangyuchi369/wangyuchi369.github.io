@@ -1,5 +1,5 @@
 ---
-title: 'PCA-Bench: Evaluating Multimodal Large Language Models in Perception-Cognition-Action
+title: '[ArXiv] PCA-Bench: Evaluating Multimodal Large Language Models in Perception-Cognition-Action
   Chain'
 
 

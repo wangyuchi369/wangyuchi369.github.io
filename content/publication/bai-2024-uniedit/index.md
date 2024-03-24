@@ -1,5 +1,5 @@
 ---
-title: 'UniEdit: A Unified Tuning-Free Framework for Video Motion and Appearance Editing'
+title: '[ArXiv] UniEdit: A Unified Tuning-Free Framework for Video Motion and Appearance Editing'
 
 
 # Authors

@@ -1,5 +1,5 @@
 ---
-title: 'Towards end-to-end embodied decision making via multi-modal large language
+title: '[FMDM@NeurIPS 2023] Towards end-to-end embodied decision making via multi-modal large language
   model: Explorations with gpt4-vision and beyond'
 
 
