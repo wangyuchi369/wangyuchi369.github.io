@@ -1,6 +1,5 @@
 ---
-title: '**GAIA: Zero-shot Talking Avatar Generation**'
-authors:
+title: GAIA: Zero-shot Talking Avatar Generation
 
 
 # Authors
@@ -21,6 +20,7 @@ authors:
 - Sheng Zhao
 - Jiang Bian
 
+date: '2023-11-25T00:00:00Z'
 author_notes:
   - 'Equal contribution'
   - 'Equal contribution'
@@ -30,7 +30,7 @@ author_notes:
 # Legend: 0 = Uncategorized; 1 = Conference paper; 2 = Journal article;
 # 3 = Preprint / Working Paper; 4 = Report; 5 = Book; 6 = Book section;
 # 7 = Thesis; 8 = Patent
-publication_types: ['1']
+publication_types: ['Conference paper']
 
 # Publication name and optional abbreviated publication name.
 publication: The Twelfth International Conference on Learning Representations
@@ -74,9 +74,9 @@ url_video: ''
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder.
 image:
-  caption: 'Example sentence pairs in the MultiSim dataset in English, Japanese, Urdu, and Russian'
+  caption: ''
   focal_point: ''
-  preview_only: true
+  preview_only: false
 
 # Associated Projects (optional).
 #   Associate this publication with one or more of your projects.
@@ -95,4 +95,4 @@ slides: ""
 
 award: ''
 ---
----
+
