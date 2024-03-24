@@ -47,10 +47,15 @@ sections:
     content:
       title: News
       text: '- [24.03] A paper accepted by NAACL 2024
+
           - [24.01] A paper accepted by ICLR 2024
+
           - [23.10] We release GAIA demo
+
           - [23.10] A paper accepted by FMDM@NeurIPS 2023
+
           - [23.05] Start internship in MSRA ML Group
+
           - [22.09] Join in Lanco Lab, Peking University
           '
     design:
@@ -257,7 +262,7 @@ sections:
           date_start: '2023-05-01'
           date_end: ''
           description: |2-
-              * Happy to join the ML group, mentored by [Junliang Guo](https://lemmonation.github.io/) and Xu Tan. 
+              * Happy to join the ML group, mentored by [Junliang Guo](https://lemmonation.github.io/) and [Xu Tan](https://tan-xu.github.io/). 
               * During internship till now, I mainly focus on generative learning, like talking avatar generation, video generation/editing. 
         # - title: Software Engineer Intern
         #   company: Microsoft Corporation
