@@ -6,8 +6,10 @@
 # Appearance
 
 appearance:
+  mode: system
+  color: cyan
   theme_day: minimal
-  # theme_night: minimal
+  theme_night: minimal
   font: minimal
   font_size: L
 

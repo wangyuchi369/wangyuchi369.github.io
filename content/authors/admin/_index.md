@@ -42,9 +42,9 @@ education:
       institution: 'School of Data Science, GPA Rank: 4/84'
 
 social:
-  - icon: envelope
-    icon_pack: fas
-    link: 'wangyuchi369@gmail.com'
+  # - icon: envelope
+  #   icon_pack: fas
+  #   link: 'wangyuchi369@gmail.com'
   - icon: google-scholar # Alternatively, use `google-scholar` icon from `ai` icon pack
     icon_pack: ai
     link: https://scholar.google.com.hk/citations?user=RxuU_0YAAAAJ&hl=zh-CN
