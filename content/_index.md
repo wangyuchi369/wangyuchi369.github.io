@@ -250,8 +250,8 @@ sections:
           company_url: 'https://www.microsoft.com/en-us/'
           company_logo: MSFT
           location: Beijing, China
-          date_start: '2023-05'
-          date_end: 'Now'
+          date_start: '2023-05-01'
+          date_end: ''
           description: |2-
               * Designed and programmed static analysis tool in C++ for identifying security vulnerabilities throughout Windows OS.
         # - title: Software Engineer Intern
