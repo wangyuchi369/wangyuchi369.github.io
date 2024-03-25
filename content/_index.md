@@ -52,7 +52,7 @@ sections:
 
           - [2023.10] We release GAIA demo!
 
-          - [2023.10] A paper accepted by FMDM@NeurIPS 2023
+          - [2023.10] One paper accepted by FMDM@NeurIPS 2023
 
           - [2023.05] Starting internship at MSRA ML Group
 
@@ -279,16 +279,16 @@ sections:
       columns: '2'
 
 
-  - block: collection
-    id: talks
-    content:
-      title: Academic Service
-      filters:
-        folders:
-          - event
-    design:
-      columns: '2'
-      view: compact
+  # - block: collection
+  #   id: talks
+  #   content:
+  #     title: Academic Service
+  #     filters:
+  #       folders:
+  #         - event
+  #   design:
+  #     columns: '2'
+  #     view: compact
 
   - block: markdown
     content: 
