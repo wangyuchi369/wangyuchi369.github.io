@@ -32,12 +32,13 @@ interests:
   - Multimodal learning
   - Generativa AI (AIGC)
   - Large language models
+  - Diffusion models
 
 # Education to show in About widget
 education:
   courses:
-    - course: Master in Data Science, Peking University, 2025(Expected)
-      institution: Academy for Advanced Interdisciplinary Studies, Lanco Lab
+    - course: Master in Data Science, Peking University, 2025 (Expected)
+      institution: AAIS, Lanco Lab
     - course: BSc in Data Science, Fudan University, 2022
       institution: 'School of Data Science, GPA Rank: 4/84'
 
@@ -70,6 +71,6 @@ social:
 # Highlight the author in author lists? (true/false)
 highlight_name: true
 ---
-Hi! I'm a master student at [Lanco Lab](https://lancopku.github.io/), [Peking University](https://english.pku.edu.cn/), under the surpervision of Prof. [Xu Sun](https://xusun26.github.io/). Before that, I receive the degree of Bachelor from the school of data science, [Fudan University](https://www.fudan.edu.cn/en/).
+Hi! I'm a master's student at the [AAIS (Academy for Advanced Interdisciplinary Studies)](http://www.aais.pku.edu.cn/en/), [Peking University](https://english.pku.edu.cn/). Currently, I am a member of [Lanco Lab](https://lancopku.github.io/), lead by Prof. [Xu Sun](https://xusun26.github.io/). Previously, I earned my Bachelor's degree from the [School of Data Science](https://sds.fudan.edu.cn/), [Fudan University](https://www.fudan.edu.cn/en/).
 
-My research interests lie within (1) Multimodal learning (2) Generative AI and (3) LLM (large language models).
+My research interests encompass **(1)** Multimodal learning, including visual understanding (e.g., image captioning), text-guided visual generation (e.g., talking face generation, image/video editing), etc **(2)** Generative Models such as diffusion models and VAEs **(3)** LLMs (especially multimodal large language models) and their applications like embodied AI.
