@@ -20,7 +20,7 @@ authors:
 - Sheng Zhao
 - Jiang Bian
 
-date: '2023-11-25T00:00:00Z'
+date: '2023-11-15T00:00:00Z'
 author_notes:
   - 'Equal contribution'
   - 'Equal contribution'
@@ -47,9 +47,7 @@ larger models yield better results; 3) it is general and enables different appli
 like controllable talking avatar generation and text-instructed avatar generation.'
 
 # Summary. An optional shortened abstract.
-summary: 'A project in MSRA. We disentangle each frame into motion and
-appearance representations and collect a large-scale high-quality talking
-avatar dataset for training our GAIA model. It demonstrates amazing naturalness and shows scalability of our model.'
+summary: 'A project in Microsoft. We design a codec to disentangle each frame of talking face videos into motion and appearance representations and then curated a large-scale, high-quality dataset to train our diffusion-based GAIA model. The results demonstrate remarkable naturalness and scalability.'
 
 tags: []
 
@@ -74,7 +72,7 @@ url_video: ''
 # To use, add an image named `featured.jpg/png` to your page's folder.
 image:
   caption: ''
-  focal_point: ''
+  focal_point: 'Middle'
   preview_only: false
 
 # Associated Projects (optional).

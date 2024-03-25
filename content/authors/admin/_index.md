@@ -21,6 +21,8 @@ role: Master Student of Artificial Intelligence
 
 # Organizations/Affiliations to show in About widget
 organizations:
+  - name: Lanco Lab
+    url: https://lancopku.github.io/
   - name: Peking University
     url: https://english.pku.edu.cn/
 
@@ -38,9 +40,9 @@ interests:
 education:
   courses:
     - course: Master in Data Science, Peking University, 2025 (Expected)
-      institution: AAIS, Lanco Lab
+      institution:  'AAIS; Lanco Lab; Advisor: Xu Sun'
     - course: BSc in Data Science, Fudan University, 2022
-      institution: 'School of Data Science, GPA Rank: 4/84'
+      institution: 'School of Data Science; GPA Rank: 4/84'
 
 social:
   # - icon: envelope
@@ -73,4 +75,4 @@ highlight_name: true
 ---
 Hi! I'm a master's student at the [AAIS (Academy for Advanced Interdisciplinary Studies)](http://www.aais.pku.edu.cn/en/), [Peking University](https://english.pku.edu.cn/). Currently, I am a member of [Lanco Lab](https://lancopku.github.io/), lead by Prof. [Xu Sun](https://xusun26.github.io/). Previously, I earned my Bachelor's degree from the [School of Data Science](https://sds.fudan.edu.cn/), [Fudan University](https://www.fudan.edu.cn/en/).
 
-My research interests encompass **(1)** Multimodal learning, including visual understanding (e.g., image captioning), text-guided visual generation (e.g., talking face generation, image/video editing), etc **(2)** Generative Models such as diffusion models and VAEs **(3)** LLMs (especially multimodal large language models) and their applications like embodied AI.
+My research interests encompass **(1) Multimodal learning**, including visual understanding (e.g., image captioning), text-guided visual generation (e.g., talking face generation, image/video editing), etc **(2) Generative Models** such as diffusion models and VAEs **(3) LLMs** (especially multimodal large language models) and their applications like embodied AI.

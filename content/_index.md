@@ -46,17 +46,17 @@ sections:
   - blocks: collection
     content:
       title: News
-      text: '- [24.03] A paper accepted by NAACL 2024
+      text: '- [2024.03] One paper accepted by NAACL 2024
 
-          - [24.01] A paper accepted by ICLR 2024
+          - [2024.01] One paper accepted by ICLR 2024
 
-          - [23.10] We release GAIA demo
+          - [2023.10] We release GAIA demo!
 
-          - [23.10] A paper accepted by FMDM@NeurIPS 2023
+          - [2023.10] A paper accepted by FMDM@NeurIPS 2023
 
-          - [23.05] Start internship in MSRA ML Group
+          - [2023.05] Starting internship at MSRA ML Group
 
-          - [22.09] Join in Lanco Lab, Peking University
+          - [2022.09] Joining in Lanco Lab, Peking University
           '
     design:
         columns: '2'
@@ -262,8 +262,8 @@ sections:
           date_start: '2023-05-01'
           date_end: ''
           description: |2-
-              * Happy to join the ML group, mentored by [Junliang Guo](https://lemmonation.github.io/) and [Xu Tan](https://tan-xu.github.io/). 
-              * During internship till now, I mainly focus on generative learning, like talking avatar generation, video generation/editing. 
+              * Exited to join the ML group, advised by [Junliang Guo](https://lemmonation.github.io/) and [Xu Tan](https://tan-xu.github.io/). 
+              * During my internship up to now, I have primarily focused on generative learning, including talking avatar generation, video generation/editing.
         # - title: Software Engineer Intern
         #   company: Microsoft Corporation
         #   company_url: 'https://www.microsoft.com/en-us/'
@@ -289,6 +289,15 @@ sections:
     design:
       columns: '2'
       view: compact
+
+  - block: markdown
+    content: 
+      title: Academic Service
+      subtitle: Teaching Assistant
+      text: 'I am currently serving as a teaching assistant for the course [Large Language Model in Decision Intelligence (PKU Class 2024 Spring)](https://kunyuan827.github.io/llm2024/). This course is tailored for undergraduates, aiming to provide them with a foundational understanding of large language models and effective strategies for their utilization.' 
+    design:
+      columns: '2'
+
 
   # - block: contact
   #   id: contact
