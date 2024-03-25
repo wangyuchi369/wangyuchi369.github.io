@@ -293,8 +293,10 @@ sections:
   - block: markdown
     content: 
       title: Academic Service
-      subtitle: Teaching Assistant
-      text: 'I am currently serving as a teaching assistant for the course [Large Language Model in Decision Intelligence (PKU Class 2024 Spring)](https://kunyuan827.github.io/llm2024/). This course is tailored for undergraduates, aiming to provide them with a foundational understanding of large language models and effective strategies for their utilization.' 
+      
+      text: '## Teaching Assistant
+      
+      I am currently serving as a teaching assistant for the course [Large Language Model in Decision Intelligence (PKU Class 2024 Spring)](https://kunyuan827.github.io/llm2024/). This course is tailored for undergraduates, aiming to provide them with a foundational understanding of large language models and effective strategies for their utilization.' 
     design:
       columns: '2'
 
