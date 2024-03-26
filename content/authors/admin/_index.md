@@ -73,6 +73,6 @@ social:
 # Highlight the author in author lists? (true/false)
 highlight_name: true
 ---
-Hi! I'm a master's student at the [AAIS (Academy for Advanced Interdisciplinary Studies)](http://www.aais.pku.edu.cn/en/), [Peking University](https://english.pku.edu.cn/). Currently, I am a member of [Lanco Lab](https://lancopku.github.io/), lead by Prof. [Xu Sun](https://xusun26.github.io/). Previously, I earned my Bachelor's degree from the [School of Data Science](https://sds.fudan.edu.cn/), [Fudan University](https://www.fudan.edu.cn/en/).
+Hi! I'm a second-year master's student at the [AAIS (Academy for Advanced Interdisciplinary Studies)](http://www.aais.pku.edu.cn/en/), [Peking University](https://english.pku.edu.cn/). Currently, I am a member of [Lanco Lab](https://lancopku.github.io/), lead by Prof. [Xu Sun](https://xusun26.github.io/). Previously, I earned my Bachelor's degree from the [School of Data Science](https://sds.fudan.edu.cn/), [Fudan University](https://www.fudan.edu.cn/en/).
 
-My research interests encompass **(1) Multimodal learning**, including visual understanding (e.g., image captioning), text-guided visual generation (e.g., talking face generation, image/video editing), etc **(2) Generative Models** such as diffusion models and VAEs **(3) LLMs** (especially multimodal large language models) and their applications like embodied AI.
+My research interests encompass **(1) Multimodal learning**, including visual understanding (e.g., image captioning), text-guided visual generation (e.g., talking face generation, image/video generation or editing), etc **(2) Generative Models** such as diffusion models and VAEs **(3) LLMs** (especially multimodal large language models) and their applications like embodied AI.
