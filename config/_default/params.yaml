@@ -19,14 +19,14 @@ marketing:
   seo:
     site_type: Person
     local_business_type: ''
-    org_name: 'Michael Ryan'
-    description: 'Michael Ryan is a masters student at Stanford University and former researcher at the Georgia Insititute of Technology.  Michael studies Artificial Intelligence and Natural Language Processing.'
-    twitter: 'https://twitter.com/michaelryan207'
+    org_name: 'Yuchi Wang'
+    description: 'Yuchi Wang is a master's student at Peking University,  surpervised by Prof. Xu Sun. His research interests include multimodal learning and generative AI.'
+    twitter: 'wangyuchi369'
   analytics:
     google_analytics: ''
     baidu_tongji: ''
   verification:
-    google: ''
+    google: 'google-site-verification=N4dVamtuiu8thhEyazVYgDJV5oYBeC_DlDyamGpoAIg'
     baidu: ''
 
 # Site header
