@@ -57,7 +57,7 @@ featured: true
 # Custom links (uncomment lines below)
 links:
 - name: Demo Page
-  url: https://microsoft.github.io/GAIA
+  url: https://gaiavatar.github.io/gaia/
 
 url_pdf: 'https://arxiv.org/pdf/2311.15230.pdf'
 url_code: ''
