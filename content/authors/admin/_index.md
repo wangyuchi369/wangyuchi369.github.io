@@ -53,7 +53,7 @@ social:
     link: https://github.com/wangyuchi369
   - icon: envelope
     icon_pack: fas
-    link: 'wangyuchi369@gmail.com'
+    link: 'mailto:wangyuchi369@gmail.com'
   - icon: linkedin
     icon_pack: fab
     link: https://www.linkedin.com/in/yuchi-wang-33b970230/
