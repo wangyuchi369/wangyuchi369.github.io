@@ -47,7 +47,7 @@ larger models yield better results; 3) it is general and enables different appli
 like controllable talking avatar generation and text-instructed avatar generation.'
 
 # Summary. An optional shortened abstract.
-summary: 'A project in Microsoft. We design a codec to disentangle each frame of talking face videos into motion and appearance representations and then curated a large-scale, high-quality dataset to train our diffusion-based GAIA model. The results demonstrate remarkable naturalness and scalability.'
+summary: 'An inside project in Microsoft. We design a codec to disentangle each frame of talking face videos into motion and appearance representations and then curated a large-scale, high-quality dataset to train our diffusion-based GAIA model. The results demonstrate remarkable naturalness and scalability.'
 
 tags: []
 
@@ -56,7 +56,7 @@ featured: true
 
 # Custom links (uncomment lines below)
 links:
-- name: Demo Page
+- name: Demo Page (Anonymous version)
   url: https://gaiavatar.github.io/gaia/
 
 url_pdf: 'https://arxiv.org/pdf/2311.15230.pdf'

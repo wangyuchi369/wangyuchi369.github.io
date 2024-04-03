@@ -1,6 +1,6 @@
 ---
 title: '[NAACL 2024] LaDiC: Are Diffusion Models Really Inferior to Autoregressive
-Counterparts for Image-to-text Generation?'
+Counterparts for Image-to-Text Generation?'
 
 
 # Authors
@@ -46,7 +46,7 @@ featured: true
 # - name: Demo Page
 #   url: https://microsoft.github.io/GAIA
 
-url_pdf: 'https://arxiv.org/pdf/2311.15230.pdf'
+url_pdf: ''
 url_code: 'https://github.com/wangyuchi369/LaDiC'
 url_dataset: ''
 url_poster: ''
