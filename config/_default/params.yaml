@@ -93,7 +93,7 @@ features:
     algolia:
       app_id: ''
       api_key: ''
-      index_name: 'Yuchi Wang'
+      index_name: 'Yuchi Wang (王宇驰)'
       show_logo: true
   map:
     provider: ''
