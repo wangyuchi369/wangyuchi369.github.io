@@ -46,7 +46,7 @@ featured: true
 # - name: Demo Page
 #   url: https://microsoft.github.io/GAIA
 
-url_pdf: ''
+url_pdf: 'https://arxiv.org/pdf/2404.10763.pdf'
 url_code: 'https://github.com/wangyuchi369/LaDiC'
 url_dataset: ''
 url_poster: ''
