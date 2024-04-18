@@ -262,7 +262,7 @@ sections:
           date_start: '2023-05-01'
           date_end: ''
           description: |2-
-              * Exited to join the ML group, advised by [Junliang Guo](https://lemmonation.github.io/) and [Xu Tan](https://tan-xu.github.io/). 
+              * Excited to join the ML group, advised by [Junliang Guo](https://lemmonation.github.io/) and [Xu Tan](https://tan-xu.github.io/). 
               * During my internship up to now, I have primarily focused on generative learning, including talking avatar generation, video generation/editing.
         # - title: Software Engineer Intern
         #   company: Microsoft Corporation
