@@ -76,3 +76,11 @@ highlight_name: true
 Hi! I'm a second-year master's student at the [AAIS](http://www.aais.pku.edu.cn/en/) (Academy for Advanced Interdisciplinary Studies), [Peking University](https://english.pku.edu.cn/). Currently, I am a member of [Lanco Lab](https://lancopku.github.io/), lead by Prof. [Xu Sun](https://xusun26.github.io/). Previously, I earned my Bachelor's degree from the [School of Data Science](https://sds.fudan.edu.cn/), [Fudan University](https://www.fudan.edu.cn/en/).
 
 My research interests encompass **(1) Multimodal learning**, including visual understanding (e.g., image captioning), text-guided visual generation (e.g., image/video generation or editing, talking face generation), etc **(2) Generative Models** such as diffusion models and VAEs **(3) LLMs** (especially multimodal large language models) and their applications like embodied AI.
+
+<font color='red>This poor boy is currently seeking a potential PhD position. Feel free to reach out if you are interested!</font>
+
+
+
+
+
+
