@@ -46,7 +46,9 @@ sections:
   - blocks: collection
     content:
       title: News
-      text: '- [2024.03] One paper accepted by NAACL 2024
+      text: '- [2024.05] One paper accepted by ACL 2024 (Findings)
+
+      - [2024.03] One paper accepted by NAACL 2024
 
           - [2024.01] One paper accepted by ICLR 2024
 

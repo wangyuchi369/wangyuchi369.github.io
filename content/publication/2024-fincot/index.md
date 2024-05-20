@@ -7,7 +7,7 @@ title: 'LLMs as Trustworthy Financial Advisors: Rationalizing Multimodal Stock M
 # and it will be replaced with their full name and linked to their profile.
 authors:
 - Yi Liu
-- Yuchi Wang
+- admin
 - Lei Li
 - Shicheng Li
 - Ruihan Bao

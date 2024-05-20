@@ -1,12 +1,12 @@
 ---
-title: '[ArXiv] InstructAvatar: Text-Guided Emotion and Motion Control for Avatar Generation'
+title: 'InstructAvatar: Text-Guided Emotion and Motion Control for Avatar Generation'
 
 
 # Authors
 # If you created a profile for a user (e.g. the default `admin` user), write the username (folder name) here
 # and it will be replaced with their full name and linked to their profile.
 authors:
-- Yuchi Wang
+- admin
 - Junliang Guo
 - ianhong Bai
 - Runyi Yu
@@ -15,7 +15,7 @@ authors:
 - Xu Sun
 - Jiang Bian
 
-date: '2024-04-24T00:00:00Z'
+date: '2023-04-24T00:00:00Z'
 # Publication type.
 # Legend: 0 = Uncategorized; 1 = Conference paper; 2 = Journal article;
 # 3 = Preprint / Working Paper; 4 = Report; 5 = Book; 6 = Book section;
@@ -41,8 +41,8 @@ links:
 - name: Demo Page
   url: https://wangyuchi369.github.io/InstructAvatar/
 
-url_pdf: 'https://arxiv.org'
-url_code: 'https://github.com'
+url_pdf: ''
+url_code: ''
 url_dataset: ''
 url_poster: ''
 url_project: ''

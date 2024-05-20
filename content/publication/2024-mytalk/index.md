@@ -9,7 +9,7 @@ authors:
 - Runyi Yu 
 - Tianyu He
 - Ailing Zhang
-- Yuchi Wang
+- admin
 - Junliang Guo
 - Xu Tan
 - Chang Liu
