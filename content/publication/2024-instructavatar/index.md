@@ -41,8 +41,8 @@ links:
 - name: Demo Page
   url: https://wangyuchi369.github.io/InstructAvatar/
 
-url_pdf: ''
-url_code: ''
+url_pdf: 'https://arxiv.org/pdf/2405.15758'
+url_code: 'https://github.com/wangyuchi369/InstructAvatar'
 url_dataset: ''
 url_poster: ''
 url_project: ''
