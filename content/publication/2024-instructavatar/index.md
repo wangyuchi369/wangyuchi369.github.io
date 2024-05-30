@@ -8,7 +8,7 @@ title: '[ArXiv]  InstructAvatar: Text-Guided Emotion and Motion Control for Avat
 authors:
 - admin
 - Junliang Guo
-- ianhong Bai
+- Jianhong Bai
 - Runyi Yu
 - Tianyu He
 - Xu Tan
