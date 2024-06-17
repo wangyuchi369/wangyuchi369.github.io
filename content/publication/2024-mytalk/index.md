@@ -8,7 +8,7 @@ title: 'Make Your Actor Talk: Generalizable and High-Fidelity Lip Sync with Moti
 authors:
 - Runyi Yu 
 - Tianyu He
-- Ailing Zhang
+- Ailing Zeng
 - admin
 - Junliang Guo
 - Xu Tan
@@ -16,7 +16,7 @@ authors:
 - Jie Chen
 - Jiang Bian
 
-date: '2023-02-24T00:00:00Z'
+date: '2024-06-08T00:00:00Z'
 # Publication type.
 # Legend: 0 = Uncategorized; 1 = Conference paper; 2 = Journal article;
 # 3 = Preprint / Working Paper; 4 = Report; 5 = Book; 6 = Book section;
@@ -27,10 +27,21 @@ publication_types: ['Preprint']
 publication: Arxiv Preprint
 publication_short: Arxiv
 
-# abstract: 'We aim to edit the lip movements in talking video according to the given speech while preserving the personal identity and visual details. The task can be decomposed into two sub-problems: (1) speech-driven lip motion generation and (2) visual appearance synthesis. Current solutions handle the two sub-problems within a single generative model, resulting in a challenging trade-off between lip-sync quality and visual details preservation. Instead, we propose to disentangle the motion and appearance, and then generate them one by one with a speech-to-motion diffusion model and a motion-conditioned appearance generation model. However, there still remain challenges in each stage, such as motion-aware identity preservation in (1) and visual details preservation in (2). Therefore, to preserve personal identity, we adopt landmarks to represent the motion, and further employ a landmark-based identity loss. To capture motion-agnostic visual details, we use separate encoders to encode the lip, non-lip appearance and motion, and then integrate them with a learned fusion module. We train MyTalk on a large-scale and diverse dataset. Experiments show that our method generalizes well to the unknown, even out-of-domain person, in terms of both lip sync and visual detail preservation.'
+abstract: 'We aim to edit the lip movements in talking video according to the given speech while preserving the personal identity and visual details. The task can be decomposed into two sub-problems: (1) speechdriven lip motion generation and (2) visual appearance synthesis. Current solutions handle the two sub-problems within a single generative
+model, resulting in a challenging trade-off between lip-sync quality and
+visual details preservation. Instead, we propose to disentangle the motion
+and appearance, and then generate them one by one with a speech-tomotion diffusion model and a motion-conditioned appearance generation model. However, there still remain challenges in each stage, such as motion-aware identity preservation in (1) and visual details preservation
+in (2). Therefore, to preserve personal identity, we adopt landmarks to
+represent the motion, and further employ a landmark-based identity loss.
+To capture motion-agnostic visual details, we use separate encoders to
+encode the lip, non-lip appearance and motion, and then integrate them
+with a learned fusion module. We train MyTalk on a large-scale and
+diverse dataset. Experiments show that our method generalizes well to
+the unknown, even out-of-domain person, in terms of both lip sync and
+visual detail preservation.'
 
-# # Summary. An optional shortened abstract.
-# summary: 'We present UniEdit, a tuning-free framework that supports both video motion and appearance editing by harnessing the power of a pre-trained text-to-video generator within an inversion-then-generation framework.'
+# Summary. An optional shortened abstract.
+summary: 'We present MyTalk, aiming to edit the lip movements in talking video according to the given speech while preserving the personal identity and visual details. '
 
 tags: []
 
@@ -39,10 +50,10 @@ featured: false
 
 # Custom links (uncomment lines below)
 links:
-# - name: Demo Page
-#   url: https://jianhongbai.github.io/UniEdit/
+- name: Demo Page
+  url: https://ingrid789.github.io/MyTalk/
 
-url_pdf: ''
+url_pdf: 'https://arxiv.org/pdf/2406.08096'
 url_code: ''
 url_dataset: ''
 url_poster: ''
