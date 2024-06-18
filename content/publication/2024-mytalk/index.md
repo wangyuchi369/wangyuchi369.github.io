@@ -1,5 +1,5 @@
 ---
-title: 'Make Your Actor Talk: Generalizable and High-Fidelity Lip Sync with Motion and Appearance Disentanglement'
+title: '[ArXiv] Make Your Actor Talk: Generalizable and High-Fidelity Lip Sync with Motion and Appearance Disentanglement'
 
 
 # Authors
