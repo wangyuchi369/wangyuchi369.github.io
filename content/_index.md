@@ -46,7 +46,13 @@ sections:
   - blocks: collection
     content:
       title: News
-      text: '- [2024.05] One paper accepted by ACL 2024 (Findings)
+      text: '- [2024.12] One paper accepted by AAAI 2025
+    
+    - [2024.12] Two papers accepted by FinNLP@COLING 2025
+    
+    - [2024.06] We release the [InstructAvatar project page](https://wangyuchi369.github.io/InstructAvatar/)!
+    
+    - [2024.05] One paper accepted by ACL 2024 (Findings)
 
       - [2024.03] One paper accepted by NAACL 2024
 
@@ -262,10 +268,10 @@ sections:
           company_logo: MSFT
           location: Beijing, China
           date_start: '2023-05-01'
-          date_end: ''
+          date_end: '2024-08-31'
           description: |2-
               * Excited to join the ML group, advised by [Junliang Guo](https://lemmonation.github.io/) and [Xu Tan](https://tan-xu.github.io/). 
-              * During my internship up to now, I have primarily focused on generative learning, including talking avatar generation, video generation/editing.
+              * During my internship, I have primarily focused on generative learning, including talking avatar generation, video generation/representation.
         # - title: Software Engineer Intern
         #   company: Microsoft Corporation
         #   company_url: 'https://www.microsoft.com/en-us/'
@@ -298,7 +304,7 @@ sections:
       
       text: '## Teaching Assistant
       
-      I am currently serving as a teaching assistant for the course [Large Language Model in Decision Intelligence (PKU Class 2024 Spring)](https://kunyuan827.github.io/llm2024/). This course is tailored for undergraduates, aiming to provide them with a foundational understanding of large language models and effective strategies for their utilization.' 
+      I served as a teaching assistant for the course [Large Language Model in Decision Intelligence (PKU Class 2024 Spring)](https://kunyuan827.github.io/llm2024/). This course is tailored for undergraduates, aiming to provide them with a foundational understanding of large language models and effective strategies for their utilization.' 
     design:
       columns: '2'
 
