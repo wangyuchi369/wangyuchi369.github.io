@@ -1,5 +1,5 @@
 ---
-title: '[ArXiv]  InstructAvatar: Text-Guided Emotion and Motion Control for Avatar Generation'
+title: '[AAAI 2025]  InstructAvatar: Text-Guided Emotion and Motion Control for Avatar Generation'
 
 
 # Authors
