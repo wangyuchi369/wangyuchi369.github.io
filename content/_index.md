@@ -46,7 +46,7 @@ sections:
   - blocks: collection
     content:
       title: News
-      text: '- [2025.02] One paper accepted by CVPR 2025
+      text: ' - [2025.02] One paper accepted by CVPR 2025
     
     - [2024.12] One paper accepted by AAAI 2025
     
