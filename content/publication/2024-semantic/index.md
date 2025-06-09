@@ -1,5 +1,5 @@
 ---
-title: '[ArXiv] Rethinking Semantic Parsing for Large Language Models: Enhancing LLM Performance with Semantic Hints'
+title: '[ACL 2025] Rethinking Semantic Parsing for Large Language Models: Enhancing LLM Performance with Semantic Hints'
 
 
 # Authors

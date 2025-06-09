@@ -1,5 +1,5 @@
 ---
-title: '[CVPR 2025]  VidTwin: Video VAE with Decoupled Structure and Dynamics'
+title: '[Arxiv]  RICO: Improving Accuracy and Completeness in Image Recaptioning via Visual Reconstruction'
 
 
 # Authors
@@ -7,13 +7,16 @@ title: '[CVPR 2025]  VidTwin: Video VAE with Decoupled Structure and Dynamics'
 # and it will be replaced with their full name and linked to their profile.
 authors:
 - admin
-- Junliang Guo
-- Xinyi Xie
-- Tianyu He
+- Yishuo Cai
+- Shuhuai Ren
+- Sihan Yang
+- Linli Yao
+- Yuanxin Liu
+- Yuanxing Zhang
+- Pengfei Wan
 - Xu Sun
-- Jiang Bian
 
-date: '2024-12-24T00:00:00Z'
+date: '2025-5-30T00:00:00Z'
 # Publication type.
 # Legend: 0 = Uncategorized; 1 = Conference paper; 2 = Journal article;
 # 3 = Preprint / Working Paper; 4 = Report; 5 = Book; 6 = Book section;
@@ -24,10 +27,10 @@ publication_types: ['Preprint']
 publication: Arxiv Preprint
 publication_short: Arxiv
 
-abstract: 'Recent advancements in video autoencoders (Video AEs) have significantly improved the quality and efficiency of video generation. In this paper, we propose a novel and compact video autoencoder, VidTwin, that decouples video into two distinct latent spaces: Structure latent vectors, which capture overall content and global movement, and Dynamics latent vectors, which represent fine-grained details and rapid movements. Specifically, our approach leverages an Encoder-Decoder backbone, augmented with two submodules for extracting these latent spaces, respectively. The first submodule employs a Q-Former to extract low-frequency motion trends, followed by downsampling blocks to remove redundant content details. The second averages the latent vectors along the spatial dimension to capture rapid motion. Extensive experiments show that VidTwin achieves a high compression rate of 0.20% with high reconstruction quality (PSNR of 28.14 on the MCL-JCV dataset), and performs efficiently and effectively in downstream generative tasks. Moreover, our model demonstrates explainability and scalability, paving the way for future research in video latent representation and generation.'
+abstract: 'Image recaptioning is widely used to generate training datasets with enhanced quality for various multimodal tasks. Existing recaptioning methods typically rely on powerful multimodal large language models (MLLMs) to enhance textual descriptions, but often suffer from inaccuracies due to hallucinations and incompleteness caused by missing fine-grained details. To address these limitations, we propose RICO, a novel framework that refines captions through visual reconstruction. Specifically, we leverage a text-to-image model to reconstruct a caption into a reference image, and prompt an MLLM to identify discrepancies between the original and reconstructed images to refine the caption. This process is performed iteratively, further progressively promoting the generation of more faithful and comprehensive descriptions. To mitigate the additional computational cost induced by the iterative process, we introduce RICO-Flash, which learns to generate captions like RICO using DPO. Extensive experiments demonstrate that our approach significantly improves caption accuracy and completeness, outperforms most baselines by approximately 10% on both CapsBench and CompreCap.'
 
 # Summary. An optional shortened abstract.
-summary: 'propose a novel and compact video autoencoder, VidTwin, that decouples video into two distinct latent spaces: Structure latent vectors, which capture overall content and global movement, and Dynamics latent vectors, which represent fine-grained details and rapid movements.'
+summary: 'We propose RICO, a novel framework that refines captions through visual reconstruction. Extensive experiments demonstrate that our approach significantly improves caption accuracy and completeness.'
 
 tags: []
 
@@ -36,11 +39,11 @@ featured: true
 
 # Custom links (uncomment lines below)
 links:
-- name: Demo Page
-  url: https://wangyuchi369.github.io/VidTwin/
+# - name: Demo Page
+#   url: https://wangyuchi369.github.io/VidTwin/
 
-url_pdf: 'https://arxiv.org/abs/2412.17726'
-url_code: 'https://github.com/microsoft/VidTok/tree/main/vidtwin'
+url_pdf: 'https://arxiv.org/pdf/2505.22613'
+url_code: 'https://github.com/wangyuchi369/RICO'
 url_dataset: ''
 url_poster: ''
 url_project: ''

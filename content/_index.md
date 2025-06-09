@@ -46,7 +46,8 @@ sections:
   - blocks: collection
     content:
       title: News
-      text: ' - [2025.02] One paper accepted by CVPR 2025
+      text: ' - [2025.06] One paper accepted by ACL 2025
+      - [2025.02] One paper accepted by CVPR 2025
     
     - [2024.12] One paper accepted by AAAI 2025
     
@@ -304,7 +305,10 @@ sections:
     content: 
       title: Academic Service
       
-      text: '## Teaching Assistant
+      text: '## Conference Reviewer
+      I have served as a reviewer for the following conferences: ARR (ACL 2025, EMNLP 2025)
+      
+      ## Teaching Assistant
       
       I served as a teaching assistant for the course [Large Language Model in Decision Intelligence (PKU Class 2024 Spring)](https://kunyuan827.github.io/llm2024/). This course is tailored for undergraduates, aiming to provide them with a foundational understanding of large language models and effective strategies for their utilization.' 
     design:
