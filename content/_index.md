@@ -47,6 +47,7 @@ sections:
     content:
       title: News
       text: ' - [2025.06] One paper accepted by ACL 2025
+
       - [2025.02] One paper accepted by CVPR 2025
     
     - [2024.12] One paper accepted by AAAI 2025
@@ -306,6 +307,7 @@ sections:
       title: Academic Service
       
       text: '## Conference Reviewer
+      
       I have served as a reviewer for the following conferences: ARR (ACL 2025, EMNLP 2025)
       
       ## Teaching Assistant
