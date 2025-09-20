@@ -1,5 +1,5 @@
 ---
-title: '[Arxiv]  RICO: Improving Accuracy and Completeness in Image Recaptioning via Visual Reconstruction'
+title: '[EMNLP]  RICO: Improving Accuracy and Completeness in Image Recaptioning via Visual Reconstruction'
 
 
 # Authors

@@ -46,7 +46,14 @@ sections:
   - blocks: collection
     content:
       title: News
-      text: ' - [2025.06] One paper accepted by ACL 2025
+      text: ' 
+    - [2025.08] Joining in MMLab@CUHK
+
+      - [2025.08] One paper accepted by EMNLP 2025
+
+      - [2025.07] One paper accepted by ACMMM 2025
+      
+      - [2025.06] One paper accepted by ACL 2025
 
       - [2025.02] One paper accepted by CVPR 2025
     

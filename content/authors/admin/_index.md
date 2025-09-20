@@ -17,14 +17,20 @@ status:
 superuser: true
 
 # Role/position/tagline
-role: Master Student of Artificial Intelligence
+role: PhD Student of Artificial Intelligence
 
 # Organizations/Affiliations to show in About widget
+# organizations:
+#   - name: Lanco Lab
+#     url: https://lancopku.github.io/
+#   - name: Peking University
+#     url: https://english.pku.edu.cn/
+
 organizations:
-  - name: Lanco Lab
-    url: https://lancopku.github.io/
-  - name: Peking University
-    url: https://english.pku.edu.cn/
+  - name: MMLab
+    url: https://mmlab.ie.cuhk.edu.hk/
+  - name: Chinese University of Hong Kong
+    url: https://www.cuhk.edu.hk/english/index.html
 
 # Short bio (displayed in user profile at end of posts)
 bio: My research interests include multimodal learning, generative AI and large language models.
@@ -39,7 +45,9 @@ interests:
 # Education to show in About widget
 education:
   courses:
-    - course: Master in Data Science, Peking University, 2025 (Expected)
+    - course: AI PhD, CUHK, 2029 (Expected)
+      institution:  'MMLab; Advisor: Hongsheng Li'
+    - course: Master in Data Science, Peking University, 2025
       institution:  'Lanco Lab; Advisor: Xu Sun; AAIS'
     - course: BSc in Data Science, Fudan University, 2022
       institution: 'School of Data Science; GPA Rank: 3/85'
@@ -73,7 +81,7 @@ social:
 # Highlight the author in author lists? (true/false)
 highlight_name: true
 ---
-Hi! I'm a final year master's student at the [AAIS](http://www.aais.pku.edu.cn/en/) (Academy for Advanced Interdisciplinary Studies), [Peking University](https://english.pku.edu.cn/). Currently, I am a member of [Lanco Lab](https://lancopku.github.io/), lead by Prof. [Xu Sun](https://xusun26.github.io/). Previously, I earned my Bachelor's degree from the [School of Data Science](https://sds.fudan.edu.cn/), [Fudan University](https://www.fudan.edu.cn/en/).
+Hi! I'm a PhD student at [MMLab@CUHK](https://mmlab.ie.cuhk.edu.hk/index.html), where I am supervised by Prof. [Hongsheng Li](https://www.ee.cuhk.edu.hk/~hsli/). Prior to this, I completed my Master’s degree at the [AAIS](http://www.aais.pku.edu.cn/en/), [Peking University](https://english.pku.edu.cn/), during which I was a member of the [Lanco Lab](https://lancopku.github.io/), lead by Prof. [Xu Sun](https://xusun26.github.io/). I earned my Bachelor's degree from the [School of Data Science](https://sds.fudan.edu.cn/), [Fudan University](https://www.fudan.edu.cn/en/).
 
 My research interests encompass **(1) Multimodal learning**, including visual understanding, text-guided visual generation (e.g., image/video generation or editing, talking face generation), etc **(2) Generative Models** such as diffusion models and VAEs **(3) LLMs** (especially multimodal large language models) and their applications like embodied AI.
 
