@@ -1,0 +1,422 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Full Publication List – Yuchi Wang</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+  <style>
+    body { padding-top: 54px; }
+
+    .fl-header {
+      background:
+        radial-gradient(ellipse at 25% 60%, rgba(40,85,170,0.3) 0%, transparent 55%),
+        radial-gradient(ellipse at 75% 20%, rgba(20,55,130,0.22) 0%, transparent 48%),
+        #04080F;
+      padding: 52px 48px 42px;
+      text-align: center; color: #fff;
+    }
+    .fl-header h1 {
+      font-family: 'Palatino Linotype', Palatino, Georgia, serif;
+      font-size: 2rem; font-weight: 700; margin-bottom: 6px;
+    }
+    .fl-header p { color: rgba(255,255,255,0.6); font-size: 0.92rem; }
+    .fl-header a { color: rgba(255,255,255,0.75); border-bottom: 1px solid rgba(144,196,248,0.3); }
+    .fl-header a:hover { color: #90C4F8; border-bottom-color: #90C4F8; }
+
+    .fl-content {
+      max-width: 1120px; margin: 0 auto; padding: 40px 48px 80px;
+    }
+
+    /* Filter bar */
+    .filter-bar {
+      display: flex; flex-wrap: wrap; gap: 7px;
+      margin-bottom: 36px; padding-bottom: 18px;
+      border-bottom: 1px solid #e8eaf0;
+    }
+    .filter-btn {
+      padding: 4px 13px; border-radius: 4px;
+      border: 1px solid #d1d5db; background: #fff;
+      font-size: 0.83rem; font-weight: 600; color: #555;
+      cursor: pointer; transition: all 0.2s;
+    }
+    .filter-btn:hover, .filter-btn.active {
+      background: rgba(61,112,178,0.08);
+      border-color: rgba(61,112,178,0.35); color: #3D70B2;
+    }
+
+    /* Year section header */
+    .year-section { margin-top: 44px; }
+    .year-section:first-of-type { margin-top: 0; }
+    .year-header {
+      display: flex; align-items: center; gap: 14px;
+      margin-bottom: 6px;
+      font-size: 1.05rem; font-weight: 800;
+      color: #1B3A6B; letter-spacing: 0.04em;
+    }
+    .year-header::after {
+      content: ""; flex: 1; height: 2px; border-radius: 999px;
+      background: linear-gradient(90deg, rgba(61,112,178,0.3) 0%, transparent 100%);
+    }
+
+    /* Use shared pub-item styles from style.css */
+    /* Slightly smaller image for full list */
+    .fl-content .pub-img { width: 240px; }
+    .fl-content .pub-img img { min-height: 120px; max-height: 165px; }
+    .fl-content .pub-item { padding: 22px 0; }
+
+    @media (max-width: 820px) {
+      .fl-content { padding: 24px 20px 60px; }
+      .fl-header { padding: 40px 20px 32px; }
+    }
+  </style>
+</head>
+<body>
+
+<nav id="navbar" class="scrolled">
+  <div class="nav-inner">
+    <a class="nav-brand" href="index.html">← Yuchi Wang</a>
+    <ul class="nav-links">
+      <li><a href="index.html#about">About</a></li>
+      <li><a href="index.html#publications">Selected</a></li>
+      <li><a href="fulllist.html" class="active">Full List</a></li>
+    </ul>
+  </div>
+</nav>
+
+<div class="fl-header">
+  <h1>Publications</h1>
+  <p>
+    <a href="https://scholar.google.com/citations?user=RxuU_0YAAAAJ" target="_blank">Google Scholar</a>
+    &nbsp;·&nbsp;
+    <a href="index.html#publications">Selected Publications</a>
+  </p>
+</div>
+
+<div class="fl-content">
+
+  <!-- Filter bar -->
+  <div class="filter-bar" id="filterBar">
+    <button class="filter-btn active" data-filter="all">All</button>
+    <button class="filter-btn" data-filter="cvpr">CVPR</button>
+    <button class="filter-btn" data-filter="iclr">ICLR</button>
+    <button class="filter-btn" data-filter="acl">ACL</button>
+    <button class="filter-btn" data-filter="emnlp">EMNLP</button>
+    <button class="filter-btn" data-filter="aaai">AAAI</button>
+    <button class="filter-btn" data-filter="acmm">ACM MM</button>
+    <button class="filter-btn" data-filter="naacl">NAACL</button>
+    <button class="filter-btn" data-filter="workshop">Workshop</button>
+    <button class="filter-btn" data-filter="preprint">Preprint</button>
+  </div>
+
+  <!-- ═══════════════ 2025 ═══════════════ -->
+  <div class="year-section" data-year="2025">
+    <div class="year-header">2025</div>
+
+    <div class="pub-item" data-venue="preprint">
+      <div class="pub-img">
+        <img src="assets/papers/sailemb.png" alt="SAIL-Embedding" onerror="this.style.background='#e4e8f0'">
+      </div>
+      <div class="pub-info">
+        <div class="pub-title">SAIL-Embedding Technical Report: Omni-modal Embedding Foundation Model</div>
+        <div class="pub-authors">Lin Lin*, Jiefeng Long*, Zhihe Wan*, <strong>Yuchi Wang*</strong>, Dingkang Yang*, Shuang Yang*, Yueyang Yao*, Xu Chen, Zirui Guo, Shengqiang Li, Weiran Li, Hanyu Li, Yaling Mou, Yan Qiu, Haiyang Yu, Xiao Liang, Hongsheng Li, Chao Feng</div>
+        <div class="pub-venue">
+          <span class="venue-badge badge-report">Technical Report 2025</span>
+        </div>
+        <div class="pub-links">
+          <a href="https://arxiv.org/abs/2510.12709" target="_blank"><i class="fa fa-file-pdf"></i> Paper</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="pub-item" data-venue="preprint">
+      <div class="pub-img">
+        <img src="assets/papers/rl_survey.png" alt="RL Survey" onerror="this.style.background='#e4e8f0'">
+      </div>
+      <div class="pub-info">
+        <div class="pub-title">Reinforcement Learning Meets Large Language Models: A Survey of Advancements and Applications across the LLM Lifecycle</div>
+        <div class="pub-authors">Keliang Liu, Dingkang Yang, Ziyun Qian, Weijie Yin, <strong>Yuchi Wang</strong>, Hongsheng Li, Jun Liu, Peng Zhai, Yang Liu, Lihua Zhang</div>
+        <div class="pub-venue">
+          <span class="venue-badge badge-report">Survey 2025</span>
+        </div>
+        <div class="pub-links">
+          <a href="https://arxiv.org/pdf/2509.16679" target="_blank"><i class="fa fa-file-pdf"></i> Paper</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="pub-item" data-venue="emnlp">
+      <div class="pub-img">
+        <img src="assets/papers/rico.png" alt="RICO" onerror="this.style.background='#e4e8f0'">
+      </div>
+      <div class="pub-info">
+        <div class="pub-title">RICO: Improving Accuracy and Completeness in Image Recaptioning via Visual Reconstruction</div>
+        <div class="pub-authors"><strong>Yuchi Wang</strong>, Yishuo Cai, Shuhuai Ren, Sihan Yang, Linli Yao, Yuanxin Liu, Yuanxing Zhang, Pengfei Wan, Xu Sun</div>
+        <div class="pub-venue">
+          <span class="venue-badge badge-emnlp">EMNLP 2025</span>
+        </div>
+        <div class="pub-links">
+          <a href="https://arxiv.org/abs/2505.22613" target="_blank"><i class="fa fa-file-pdf"></i> Paper</a>
+          <a href="https://github.com/wangyuchi369/RICO" target="_blank"><i class="fa-brands fa-github"></i> Code</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="pub-item" data-venue="aaai">
+      <div class="pub-img">
+        <img src="assets/papers/tide.png" alt="TIDE" onerror="this.style.background='#e4e8f0'">
+      </div>
+      <div class="pub-info">
+        <div class="pub-title">TIDE: Temporal-Aware Sparse Autoencoders for Interpretable Diffusion Transformers in Image Generation</div>
+        <div class="pub-authors">Victor Shea-Jay Huang, Le Zhuo, Yi Xin, Zhaokai Wang, Fu-Yun Wang, <strong>Yuchi Wang</strong>, Renrui Zhang, Peng Gao, Hongsheng Li</div>
+        <div class="pub-venue">
+          <span class="venue-badge badge-aaai">AAAI 2026</span>
+        </div>
+        <div class="pub-links">
+          <a href="https://arxiv.org/pdf/2503.07050" target="_blank"><i class="fa fa-file-pdf"></i> Paper</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="pub-item" data-venue="acl">
+      <div class="pub-img">
+        <img src="assets/papers/rethink.png" alt="Rethinking Semantic Parsing" onerror="this.style.background='#e4e8f0'">
+      </div>
+      <div class="pub-info">
+        <div class="pub-title">Rethinking Semantic Parsing for Large Language Models: Enhancing LLM Performance with Semantic Hints</div>
+        <div class="pub-authors">Kaikai An, Shuzheng Si, Helan Hu, Haozhe Zhao, <strong>Yuchi Wang</strong>, Qingyan Guo, Baobao Chang</div>
+        <div class="pub-venue">
+          <span class="venue-badge badge-acl">ACL 2025</span>
+        </div>
+        <div class="pub-links">
+          <a href="https://aclanthology.org/2025.acl-short.79.pdf" target="_blank"><i class="fa fa-file-pdf"></i> Paper</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="pub-item" data-venue="workshop">
+      <div class="pub-img">
+        <img src="assets/papers/graph.png" alt="Stock Graph LLM" onerror="this.style.background='#e4e8f0'">
+      </div>
+      <div class="pub-info">
+        <div class="pub-title">Modeling Interactions between Stocks Using LLM-Enhanced Graphs for Volume Prediction</div>
+        <div class="pub-authors">Zhiyu Xu, Yi Liu, <strong>Yuchi Wang</strong>, Ruihan Bao, Keiko Harimoto, Xu Sun</div>
+        <div class="pub-venue">
+          <span class="venue-badge badge-acl">FinNLP@ACL 2025</span>
+        </div>
+        <div class="pub-links">
+          <a href="#" target="_blank"><i class="fa fa-file-pdf"></i> Paper</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="pub-item" data-venue="workshop">
+      <div class="pub-img">
+        <img src="assets/papers/proxy.png" alt="Proxy Tuning" onerror="this.style.background='#e4e8f0'">
+      </div>
+      <div class="pub-info">
+        <div class="pub-title">Proxy Tuning for Financial Sentiment Analysis: Overcoming Data Scarcity and Computational Barriers</div>
+        <div class="pub-authors">Yuxiang Wang*, <strong>Yuchi Wang*</strong>, Yi Liu, Ruihan Bao, Keiko Harimoto, Xu Sun</div>
+        <div class="pub-venue">
+          <span class="venue-badge badge-acl">FinNLP@ACL 2025</span>
+        </div>
+        <div class="pub-links">
+          <a href="#" target="_blank"><i class="fa fa-file-pdf"></i> Paper</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="pub-item" data-venue="cvpr">
+      <div class="pub-img">
+        <img src="assets/papers/vidtwin.gif" alt="VidTwin"
+          onerror="this.src='assets/papers/vidtwin.png'; this.onerror=null; this.style.background='#e4e8f0'">
+      </div>
+      <div class="pub-info">
+        <div class="pub-title">VidTwin: Video VAE with Decoupled Structure and Dynamics</div>
+        <div class="pub-authors"><strong>Yuchi Wang</strong>, Junliang Guo, Xinyi Xie, Tianyu He, Xu Sun, Jiang Bian</div>
+        <div class="pub-venue">
+          <span class="venue-badge badge-cvpr">CVPR 2025</span>
+        </div>
+        <div class="pub-links">
+          <a href="https://arxiv.org/abs/2412.17726" target="_blank"><i class="fa fa-file-pdf"></i> Paper</a>
+          <a href="https://github.com/microsoft/VidTok/tree/main" target="_blank"><i class="fa-brands fa-github"></i> Code</a>
+          <a href="https://vidtwin.github.io/" target="_blank"><i class="fa-solid fa-globe"></i> Project</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="pub-item" data-venue="acmm">
+      <div class="pub-img">
+        <img src="assets/papers/uniedit.gif" alt="UniEdit"
+          onerror="this.src='assets/papers/uniedit.png'; this.onerror=null; this.style.background='#e4e8f0'">
+      </div>
+      <div class="pub-info">
+        <div class="pub-title">UniEdit: A Unified Tuning-Free Framework for Video Motion and Appearance Editing</div>
+        <div class="pub-authors">Jianhong Bai, Tianyu He, <strong>Yuchi Wang</strong>, Junliang Guo, Haoji Hu, Zuozhu Liu, Jiang Bian</div>
+        <div class="pub-venue">
+          <span class="venue-badge badge-acmm">ACM MM 2025</span>
+        </div>
+        <div class="pub-links">
+          <a href="https://arxiv.org/abs/2402.13185" target="_blank"><i class="fa fa-file-pdf"></i> Paper</a>
+          <a href="https://github.com/JianhongBai/UniEdit" target="_blank"><i class="fa-brands fa-github"></i> Code</a>
+          <a href="https://jianhongbai.github.io/UniEdit/" target="_blank"><i class="fa-solid fa-globe"></i> Project</a>
+        </div>
+      </div>
+    </div>
+
+  </div><!-- /2025 -->
+
+  <!-- ═══════════════ 2024 ═══════════════ -->
+  <div class="year-section" data-year="2024">
+    <div class="year-header">2024</div>
+
+    <div class="pub-item" data-venue="aaai">
+      <div class="pub-img">
+        <img src="assets/papers/instructavatar.gif" alt="InstructAvatar"
+          onerror="this.src='assets/papers/instructavatar.png'; this.onerror=null; this.style.background='#e4e8f0'">
+      </div>
+      <div class="pub-info">
+        <div class="pub-title">InstructAvatar: Text-Guided Emotion and Motion Control for Avatar Generation</div>
+        <div class="pub-authors"><strong>Yuchi Wang</strong>, Junliang Guo, Jianhong Bai, Runyi Yu, Tianyu He, Xu Tan, Xu Sun, Jiang Bian</div>
+        <div class="pub-venue">
+          <span class="venue-badge badge-aaai">AAAI 2024</span>
+        </div>
+        <div class="pub-links">
+          <a href="https://arxiv.org/abs/2405.15758" target="_blank"><i class="fa fa-file-pdf"></i> Paper</a>
+          <a href="https://wangyuchi369.github.io/InstructAvatar/" target="_blank"><i class="fa-solid fa-globe"></i> Project</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="pub-item" data-venue="preprint">
+      <div class="pub-img">
+        <img src="assets/papers/2024_MyTalk.gif" alt="MyTalk"
+          onerror="this.src='assets/papers/2024_MyTalk.png'; this.onerror=null; this.style.background='#e4e8f0'">
+      </div>
+      <div class="pub-info">
+        <div class="pub-title">Make Your Actor Talk: Generalizable and High-Fidelity Lip Sync with Motion and Appearance Disentanglement</div>
+        <div class="pub-authors">Runyi Yu, Tianyu He, Ailing Zhang, <strong>Yuchi Wang</strong>, Junliang Guo, Xu Tan, Chang Liu, Jie Chen, Jiang Bian</div>
+        <div class="pub-venue">
+          <span class="venue-badge badge-arxiv">Preprint</span>
+        </div>
+        <div class="pub-links">
+          <a href="https://arxiv.org/pdf/2406.08096" target="_blank"><i class="fa fa-file-pdf"></i> Paper</a>
+          <a href="https://ingrid789.github.io/MyTalk/" target="_blank"><i class="fa-solid fa-globe"></i> Project</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="pub-item" data-venue="iclr">
+      <div class="pub-img">
+        <img src="assets/papers/gaia.gif" alt="GAIA"
+          onerror="this.src='assets/papers/gaia.png'; this.onerror=null; this.style.background='#e4e8f0'">
+      </div>
+      <div class="pub-info">
+        <div class="pub-title">GAIA: Zero-shot Talking Avatar Generation</div>
+        <div class="pub-authors">Tianyu He*, Junliang Guo*, Runyi Yu*, <strong>Yuchi Wang*</strong>, Jialiang Zhu, Kaikai An, Leyi Li, Xu Tan, Chunyu Wang, Han Hu, HsiangTao Wu, Sheng Zhao, Jiang Bian</div>
+        <div class="pub-venue">
+          <span class="venue-badge badge-iclr">ICLR 2024</span>
+        </div>
+        <div class="pub-links">
+          <a href="https://arxiv.org/abs/2311.15230" target="_blank"><i class="fa fa-file-pdf"></i> Paper</a>
+          <a href="https://www.microsoft.com/en-us/research/publication/gaia-zero-shot-talking-avatar-generation/" target="_blank"><i class="fa-solid fa-globe"></i> Project</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="pub-item" data-venue="naacl">
+      <div class="pub-img">
+        <img src="assets/papers/ladic.png" alt="LaDiC" onerror="this.style.background='#e4e8f0'">
+      </div>
+      <div class="pub-info">
+        <div class="pub-title">LaDiC: Are Diffusion Models Really Inferior to Autoregressive Counterparts for Image-to-Text Generation?</div>
+        <div class="pub-authors"><strong>Yuchi Wang*</strong>, Shuhuai Ren*, Rundong Gao, Linli Yao, Qingyan Guo, Kaikai An, Jianhong Bai, Xu Sun</div>
+        <div class="pub-venue">
+          <span class="venue-badge badge-naacl">NAACL 2024</span>
+        </div>
+        <div class="pub-links">
+          <a href="https://arxiv.org/abs/2404.10763" target="_blank"><i class="fa fa-file-pdf"></i> Paper</a>
+          <a href="https://github.com/wangyuchi369/LaDiC" target="_blank"><i class="fa-brands fa-github"></i> Code</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="pub-item" data-venue="acl">
+      <div class="pub-img">
+        <img src="assets/papers/PCA.png" alt="PCA-Bench" onerror="this.style.background='#e4e8f0'">
+      </div>
+      <div class="pub-info">
+        <div class="pub-title">PCA-Bench: Evaluating Multimodal Large Language Models in Perception-Cognition-Action Chain</div>
+        <div class="pub-authors">Liang Chen, Yichi Zhang, Shuhuai Ren, Haozhe Zhao, Zefan Cai, <strong>Yuchi Wang</strong>, Peiyi Wang, Xiangdi Meng, Tianyu Liu, Baobao Chang</div>
+        <div class="pub-venue">
+          <span class="venue-badge badge-acl">ACL 2024 Findings</span>
+        </div>
+        <div class="pub-links">
+          <a href="https://aclanthology.org/2024.findings-acl.64.pdf" target="_blank"><i class="fa fa-file-pdf"></i> Paper</a>
+          <a href="https://github.com/pkunlp-icler/PCA-EVAL" target="_blank"><i class="fa-brands fa-github"></i> Code</a>
+          <a href="https://huggingface.co/datasets/PCA-Bench/PCA-Bench-V1" target="_blank"><i class="fa-solid fa-database"></i> Dataset</a>
+        </div>
+      </div>
+    </div>
+
+  </div><!-- /2024 -->
+
+</div><!-- fl-content -->
+
+<footer>
+  <p>&copy; 2026 Yuchi Wang &nbsp;·&nbsp; <a href="index.html">← Back to Home</a></p>
+</footer>
+
+<!-- Lightbox -->
+<div id="lightbox" class="lb-overlay" role="dialog" aria-label="Image zoom">
+  <span class="lb-close" id="lbClose" aria-label="Close">&times;</span>
+  <img id="lightboxImg" src="" alt="">
+</div>
+
+<script>
+  // Navbar
+  const navbar = document.getElementById('navbar');
+  window.addEventListener('scroll', () => {
+    navbar.classList.toggle('scrolled', window.scrollY > 10);
+  });
+
+  // Filter
+  document.getElementById('filterBar').addEventListener('click', e => {
+    const btn = e.target.closest('.filter-btn');
+    if (!btn) return;
+    document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
+    btn.classList.add('active');
+    const filter = btn.dataset.filter;
+    document.querySelectorAll('.pub-item').forEach(item => {
+      const v = item.dataset.venue || '';
+      item.style.display = (filter === 'all' || v === filter) ? 'flex' : 'none';
+    });
+    // Hide empty year sections
+    document.querySelectorAll('.year-section').forEach(sec => {
+      const visible = [...sec.querySelectorAll('.pub-item')]
+        .some(i => i.style.display !== 'none');
+      sec.style.display = visible ? '' : 'none';
+    });
+  });
+
+  // Lightbox
+  const lbOverlay = document.getElementById('lightbox');
+  const lbImg     = document.getElementById('lightboxImg');
+  const lbClose   = document.getElementById('lbClose');
+  document.querySelectorAll('.pub-img img').forEach(img => {
+    img.addEventListener('click', () => {
+      lbImg.src = img.src; lbImg.alt = img.alt;
+      lbOverlay.classList.add('open');
+    });
+  });
+  function closeLb() { lbOverlay.classList.remove('open'); lbImg.src = ''; }
+  lbOverlay.addEventListener('click', e => { if (e.target !== lbImg) closeLb(); });
+  lbClose.addEventListener('click', closeLb);
+  document.addEventListener('keydown', e => { if (e.key === 'Escape') closeLb(); });
+</script>
+</body>
+</html>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+    xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+       http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd"
+>
+
+<url>
+ <loc>https://wangyuchi369.github.io/</loc>
+ <priority>0.3</priority>
+ <lastmod>2024-04-17</lastmod>
+ <changefreq>weekly</changefreq>
+</url>
+
+<url>
+ <loc>https://wangyuchi369.github.io/publication/2024-ladic</loc>
+ <priority>0.3</priority>
+ <lastmod>2024-04-17</lastmod>
+ <changefreq>weekly</changefreq>
+</url>
+
+<url>
+ <loc>https://wangyuchi369.github.io/publication/2023-gaia</loc>
+ <priority>0.3</priority>
+ <lastmod>2024-04-17</lastmod>
+ <changefreq>weekly</changefreq>
+</url>
+
+<url>
+ <loc>https://wangyuchi369.github.io/publication/2024-uniedit</loc>
+ <priority>0.3</priority>
+ <lastmod>2024-04-17</lastmod>
+ <changefreq>weekly</changefreq>
+</url>
+
+<url>
+ <loc>https://wangyuchi369.github.io/publication/2024-pcabench</loc>
+ <priority>0.3</priority>
+ <lastmod>2024-04-17</lastmod>
+ <changefreq>weekly</changefreq>
+</url>
+
+<url>
+ <loc>https://wangyuchi369.github.io/publication/2023-pcaeval</loc>
+ <priority>0.3</priority>
+ <lastmod>2024-04-17</lastmod>
+ <changefreq>weekly</changefreq>
+</url>
+
+</urlset>

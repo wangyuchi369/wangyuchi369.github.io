@@ -1,0 +1,945 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
+  "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+<link rel="shortcut icon" href="myIcon.ico">
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+
+<meta name="keywords" content="Runyi Yu, Yu Runyi, Ingrid Yu, PKU, HKUST"> 
+<meta name="description" content="Homepage of Runyi Yu">
+<meta name="google-site-verification" content="yy_3iiS_X6pJdegdwitJMrH0LRLHXwpjrV9RKLXxKjg" />
+<meta name="google-site-verification" content="yy_3iiS_X6pJdegdwitJMrH0LRLHXwpjrV9RKLXxKjg" />
+<link rel="stylesheet" href="jemdoc.css" type="text/css">
+<title>Runyi Yu@HKUST</title>
+<style>
+    .smaller-image {
+      width: 20%;
+    }
+
+		.section-heading {
+			position: relative;
+			display: block;
+			width: 100%;
+			box-sizing: border-box;
+			margin-top: 1.85em;
+			margin-bottom: 1em;
+			padding: 0 0 14px 0;
+			border: none;
+			background: transparent;
+			color: #FD6C6C;
+			font-size: 1.42em;
+			font-weight: 700;
+			line-height: 1.15;
+			letter-spacing: 0.01em;
+			text-shadow: none;
+			box-shadow: none;
+			transform-origin: left center;
+			overflow: visible;
+			transition:
+				transform 0.24s ease,
+				color 0.28s ease,
+				letter-spacing 0.28s ease,
+				text-shadow 0.28s ease;
+		}
+
+		.section-heading::before {
+			content: "";
+			position: absolute;
+			left: 0;
+			bottom: 0;
+			width: 72px;
+			height: 4px;
+			border-radius: 999px;
+			background: linear-gradient(90deg, #FD6C6C 0%, #ffb0b0 100%);
+			box-shadow: 0 8px 16px rgba(253, 108, 108, 0.2);
+			transform-origin: left center;
+			transition: width 0.28s ease, transform 0.28s ease, box-shadow 0.28s ease;
+		}
+
+		.section-heading::after {
+			content: "";
+			position: absolute;
+			left: 0;
+			right: 0;
+			bottom: 1px;
+			height: 1px;
+			border-radius: 999px;
+			background: linear-gradient(90deg, rgba(253, 108, 108, 0.26) 0%, rgba(253, 108, 108, 0.08) 36%, rgba(253, 108, 108, 0) 100%);
+			opacity: 1;
+			transition: opacity 0.28s ease;
+		}
+
+		.section-heading:hover,
+		.section-heading.section-focus {
+			color: #FD6C6C;
+			transform: translateX(2px);
+			letter-spacing: 0.015em;
+			text-shadow: 0 6px 18px rgba(253, 108, 108, 0.12);
+		}
+
+		.section-heading:hover::before,
+		.section-heading.section-focus::before {
+			width: 156px;
+			box-shadow: 0 10px 18px rgba(253, 108, 108, 0.24);
+			transform: scaleX(1.02);
+		}
+
+		.section-heading:hover::after,
+		.section-heading.section-focus::after {
+			opacity: 0.92;
+		}
+
+		.section-heading.section-active {
+			color: #f45f77;
+			transform: translateX(4px);
+			letter-spacing: 0.02em;
+			text-shadow: 0 8px 22px rgba(253, 108, 108, 0.14);
+		}
+
+		.section-heading.section-active::before {
+			width: 220px;
+			box-shadow: 0 12px 22px rgba(253, 108, 108, 0.28);
+			transform: scaleX(1.04);
+		}
+
+		.hero-name,
+		.hero-role {
+			color: #FD6C6C;
+		}
+
+		.bio-note {
+			margin: 0 0 12px 0;
+			padding: 0;
+			border: none;
+			border-radius: 0;
+			background: transparent;
+			box-shadow: none;
+		}
+
+		.bio-note-text {
+			display: inline-flex;
+			align-items: center;
+			gap: 10px;
+			padding: 0;
+			border: none;
+			border-radius: 0;
+			background: transparent;
+			color: #111111;
+			font-style: italic;
+			font-weight: 400;
+			letter-spacing: 0.01em;
+			box-shadow: none;
+		}
+
+		.bio-note-highlight {
+			color: #FD6C6C;
+			font-weight: 700;
+		}
+
+		.bio-note-icon {
+			position: relative;
+			width: 18px;
+			height: 16px;
+			flex: 0 0 18px;
+			border: 1.5px solid #FD6C6C;
+			border-radius: 3px;
+			background: transparent;
+			box-sizing: border-box;
+		}
+
+		.bio-note-icon::before,
+		.bio-note-icon::after {
+			content: "";
+			position: absolute;
+			left: 3px;
+			right: 3px;
+			height: 1.5px;
+			background: rgba(253, 108, 108, 0.7);
+			border-radius: 999px;
+		}
+
+		.bio-note-icon::before {
+			top: 5px;
+		}
+
+		.bio-note-icon::after {
+			top: 9px;
+		}
+
+		.pub-category-row td {
+			padding: 8px 0 16px 0;
+		}
+
+		.pub-category {
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			width: 100%;
+			color: #FD6C6C;
+			font-size: 1.1em;
+			font-weight: 700;
+			letter-spacing: 0.12em;
+			text-transform: uppercase;
+		}
+
+		.pub-category::before,
+		.pub-category::after {
+			content: "";
+			flex: 1;
+			height: 1px;
+			border-radius: 999px;
+			background: rgba(253, 108, 108, 0.45);
+		}
+
+		.pub-category::before {
+			margin-right: 16px;
+		}
+
+		.pub-category::after {
+			margin-left: 16px;
+		}
+
+		.section-heading.section-active::after {
+			opacity: 1;
+		}
+
+		@media (max-width: 720px) {
+			.section-heading {
+				margin-top: 1.45em;
+				padding: 0 0 12px 0;
+				font-size: 1.2em;
+			}
+
+			.section-heading::before {
+				width: 56px;
+			}
+
+			.section-heading::after {
+				background: linear-gradient(90deg, rgba(253, 108, 108, 0.22) 0%, rgba(253, 108, 108, 0.06) 36%, rgba(253, 108, 108, 0) 100%);
+			}
+		}
+
+		.community-services {
+			margin-top: 14px;
+			padding: 10px 0 0 0;
+			border: none;
+			border-radius: 0;
+			background: transparent;
+			box-shadow: none;
+		}
+
+		.community-intro {
+			margin: 0 0 18px 0;
+			color: #3f4c63;
+			font-size: 1.03em;
+			line-height: 1.7;
+		}
+
+		.service-list {
+			list-style: none;
+			margin: 0;
+			padding: 0;
+			display: grid;
+			gap: 16px;
+		}
+
+		.service-list li {
+			margin: 0;
+			padding: 18px 20px;
+			border: 1px solid rgba(253, 108, 108, 0.22);
+			border-radius: 18px;
+			background: transparent;
+			box-shadow: none;
+		}
+
+		.service-title {
+			font-weight: bold;
+			margin-bottom: 10px;
+			color: #FD6C6C;
+			font-size: 1.08em;
+			letter-spacing: 0.01em;
+		}
+
+		.service-item-group {
+			display: flex;
+			flex-wrap: wrap;
+			gap: 10px;
+		}
+
+		.service-tag {
+			display: inline-block;
+			padding: 6px 14px;
+			border: 1px solid #cbd9ee;
+			border-radius: 999px;
+			background: #ffffff;
+			color: #36598f;
+			font-size: 0.92em;
+			font-weight: 600;
+			white-space: nowrap;
+			box-shadow: 0 4px 10px rgba(82, 123, 189, 0.08);
+		}
+
+		a.service-tag {
+			text-decoration: none;
+			transition: transform 0.22s ease, box-shadow 0.22s ease, filter 0.22s ease;
+		}
+
+		a.service-tag:hover {
+			transform: translateY(-2px);
+			box-shadow: 0 8px 18px rgba(82, 123, 189, 0.14);
+			filter: brightness(0.98);
+		}
+
+		.tag-cvpr {
+			background: #eef4ff;
+			border-color: #c8d8fb;
+			color: #315ca8;
+		}
+
+		.tag-aaai {
+			background: #f5efff;
+			border-color: #d8c9fb;
+			color: #6650a8;
+		}
+
+		.tag-neurips {
+			background: #edf8f3;
+			border-color: #c6e7d4;
+			color: #2f7c58;
+		}
+
+		.tag-iccv {
+			background: #fff3ea;
+			border-color: #f3d2bc;
+			color: #a56433;
+		}
+
+		.tag-ijcai {
+			background: #fff7dc;
+			border-color: #eddca4;
+			color: #8a6a14;
+		}
+
+		.tag-journal {
+			background: #eef7fb;
+			border-color: #c6dfea;
+			color: #3d6984;
+		}
+</style>
+
+
+</head>
+<body>
+<div id="layout-content" style="margin-top:25px">
+ <a href="https://github.com/Ingrid789" class="github-corner"><svg width="80" height="80" viewBox="0 0 250 250" style="fill:#FD6C6C; color:#fff; position: absolute; top: 0; border: 0; right: 0;"><path d="M0,0 L115,115 L130,115 L142,142 L250,250 L250,0 Z"></path><path d="M128.3,109.0 C113.8,99.7 119.0,89.6 119.0,89.6 C122.0,82.7 120.5,78.6 120.5,78.6 C119.2,72.0 123.4,76.3 123.4,76.3 C127.3,80.9 125.5,87.3 125.5,87.3 C122.9,97.6 130.6,101.9 134.4,103.2" fill="currentColor" style="transform-origin: 130px 106px;" class="octo-arm"></path><path d="M115.0,115.0 C114.9,115.1 118.7,116.5 119.8,115.4 L133.7,101.6 C136.9,99.2 139.9,98.4 142.2,98.6 C133.8,88.0 127.5,74.4 143.8,58.0 C148.5,53.4 154.0,51.2 159.7,51.0 C160.3,49.4 163.2,43.6 171.4,40.1 C171.4,40.1 176.1,42.5 178.8,56.2 C183.1,58.6 187.2,61.8 190.9,65.4 C194.5,69.0 197.7,73.2 200.1,77.6 C213.8,80.2 216.3,84.9 216.3,84.9 C212.7,93.1 206.9,96.0 205.4,96.6 C205.1,102.4 203.0,107.8 198.3,112.5 C181.9,128.9 168.3,122.5 157.7,114.1 C157.9,116.9 156.7,120.9 152.7,124.9 L141.0,136.5 C139.8,137.7 141.6,141.9 141.8,141.8 Z" fill="currentColor" class="octo-body"></path></svg></a><style>.github-corner:hover .octo-arm{animation:octocat-wave 560ms ease-in-out}@keyframes octocat-wave{0%,100%{transform:rotate(0)}20%,60%{transform:rotate(-25deg)}40%,80%{transform:rotate(10deg)}}@media (max-width:500px){.github-corner:hover .octo-arm{animation:none}.github-corner .octo-arm{animation:octocat-wave 560ms ease-in-out}}</style>
+
+<table>
+	<tbody>
+		<tr>
+			<td width="670">
+				<div id="toptitle">					
+					<h1 class="hero-name">Runyi (Ingrid) Yu </h1>
+					<h1></h1>
+					<h1></h1>
+					</div>
+				<h3 class="hero-role">PhD Student</h3>
+				<p>
+					Hong Kong University of Science and Technology <br>
+					Clear Water Bay, Kowloon, HongKong.<br>
+					<br>
+					Email: ingrid.yu [at] connect [dot] ust [dot] hk<br>
+				</p>
+				<p> 
+					<a href="https://scholar.google.com/citations?user=jUSqsWkAAAAJ&hl=zh-CN&oi=ao"><img src="./pic/google_scholar.png" height="30px" style="margin-bottom:-3px"></a>
+					<a href="https://github.com/Ingrid789"><img src="./pic/github.jpg" height="30px" style="margin-bottom:-3px"></a>
+					<a href="https://www.xiaohongshu.com/user/profile/59eac0d8e8ac2b4f7adc593b"><img src="./pic/xiaohongshu.png" height="30px" style="margin-bottom:-3px"></a>
+				</p>
+			</td>
+			<td>
+				<img src="./pic/Runyi.jpg" border="0" width="240"><br>
+			</td>
+		</tr><tr>
+	</tr></tbody>
+</table>
+
+<h2 class="section-heading">Biography</h2>
+<p>
+	I am a second-year phd student at <a href="https://hkust.edu.hk/zh-hans">HKUST</a>, supervised by <a href="https://cqf.io/">Qifeng Chen</a>. 
+	I obtained my Master's Degree from <a href="https://pku.edu.cn"> Peking University </a> in 2024 and Bachelor's Degree from <a href="https://www.bnu.edu.cn/">Beijing Normal University</a> in 2021. 
+	I used to be an intern at <a href="https://www.shlab.org.cn/">Shanghai AI Laboratory</a>, <a href="https://www.unitree.com/cn/">Unitree</a>, and <a href="https://www.msra.cn/">MSRA</a>.
+</p>
+<p>
+	My research interests include Robotics, Computer Vision, Machine Learning and their intersections. 
+	From 2021 to 2022, I focused on the Transformer-based Understanding researches. 
+	From 2023 to 2024, I worked on image/video generation and talking head generation.   
+	Now, I am exploring the Embodied AI, especially the Humanoid Manipulation.
+<p class="bio-note"><span class="bio-note-text"><span class="bio-note-icon" aria-hidden="true"></span>Cooperation and discussion are welcomed.</span></p>
+<p class="bio-note"><span class="bio-note-text"><span class="bio-note-icon" aria-hidden="true"></span>I will be actively seeking job opportunities <span class="bio-note-highlight">since June 2026.</span></p>
+
+
+<h2 class="section-heading">News</h2>
+<div style="height: 240px; overflow: auto;">
+<ul>
+	<li>
+		[03/2025] One paper was accepted by <a href="https://2025.ieee-icra.org/"> ICRA 2026 </a>.
+	</li>
+	<li>
+		[03/2025] One paper was accepted by <a href="https://iccv.thecvf.com/"> ICCV 2025 </a>.
+	</li>
+	<li>
+		[03/2025] One paper was accepted by <a href="https://s2025.siggraph.org/"> SIGGRAPH 2025 </a>.
+	</li>
+	<li>
+		[02/2025] One paper was accepted by 🏆 <i style="color: orange; display: inline; font-weight: bold;"> Highlight </i> <a href="https://cvpr.thecvf.com/Conferences/2025"> CVPR 2025 </a>.
+	</li>
+	<li>
+		[12/2024] One paper was accepted by <a href="https://aaai.org/conference/aaai/aaai-25/"> AAAI 2025 </a>.
+	</li>
+	<li>
+		[07/2024] One paper was accepted by <a href="https://eccv2024.ecva.net/"> ECCV 2024 </a>.
+	</li>
+	<li>
+		[06/2024] Graduated from <a href="https://www.pku.edu.cn/"> Peking University </a>.
+	</li>
+	<li>
+		[10/2023] One paper was accepted by <a href="https://iclr.cc/Conferences/2024"> ICLR 2024 </a>.
+	</li>
+	<li>
+		[06/2023] One paper was accepted by <a href="https://iccv2023.thecvf.com/"> ICCV 2023 </a>.
+	</li>
+	<li>
+		[06/2023] One paper was accepted as 🏆 <i style="color: orange; display: inline; font-weight: bold;"> Oral </i> in <a href="https://cvpr.thecvf.com/Conferences/2023"> CVPR Workshop 2023 </a>.
+	</li>
+	<li>
+		[02/2023] One paper was accepted as 🏆 <i style="color: orange; display: inline; font-weight: bold;"> Highlight </i> in <a href="https://iccv2023.thecvf.com/"> CVPR 2023 </a>.
+	</li>
+	<li>
+		[07/2022] One paper was accepted by <a herf="https://2023.ieeeicassp.org/"> ECCV 2022 </a>.
+	</li>
+	<li>
+		[06/2021] Graduated from <a href="https://www.bnu.edu.cn/"> Beijing Normal University </a>.
+	</li>
+</ul>
+</div>
+
+<h2 class="section-heading">Internship</h2>
+<table id="tbPublications" width="100%">
+	<tbody>
+	<p></p>
+	</td>
+	<tr>
+		<td width="306">
+		<img src="./internship/NR.jpg" width="120x" style="box-shadow: 4px 4px 8px #ffffff">
+		</td>
+		<td>
+		<p><b> Noitom Robotics </b></p>
+		<p>Oct. 2025 - Now, Shenzhen, China </p>
+		<p>closely worked with <a href="https://leihan.org/" target="_blank">Lei Han</a></p>
+		<em>Topic: Humanoid Loco-Manipulation</em>
+		</td>
+	</tr>
+	<tr>&nbsp</tr>
+		<tr>&nbsp</tr>
+		<tr>&nbsp</tr>
+		<tr>&nbsp</tr>
+		<tr>&nbsp</tr>
+	<tr>&nbsp</tr>
+		<tr>&nbsp</tr>
+		<tr>&nbsp</tr>
+		<tr>&nbsp</tr>
+		<tr>&nbsp</tr>
+	<tr>
+		<td width="306">
+		<img src="./internship/Shlab.png" width="200x" style="box-shadow: 4px 4px 8px #ffffff">
+		</td>
+		<td>
+		<p><b> Shanghai AI Laboratory </b></p>
+		<p>Dec. 2024 - Sep. 2025, OpenRobotLab, Shanghai, China </p>
+		<p>closely worked with <a href="https://wangjingbo1219.github.io/" target="_blank">Jingbo Wang</a></p>
+		<em>Topic: Humanoid Scene Interatcion</em>
+		</td>
+	</tr>
+	<tr>&nbsp</tr>
+		<tr>&nbsp</tr>
+		<tr>&nbsp</tr>
+		<tr>&nbsp</tr>
+		<tr>&nbsp</tr>
+	<tr>&nbsp</tr>
+		<tr>&nbsp</tr>
+		<tr>&nbsp</tr>
+		<tr>&nbsp</tr>
+		<tr>&nbsp</tr>
+	<tr>
+		<tr>
+		<td width="306">
+		<img src="./internship/Unitree.png" width="200x" style="box-shadow: 4px 4px 8px #ffffff">
+		</td>
+		<td>
+		<p><b> Unitree </b></p>
+		<p>Apr. 2024 - Aug. 2024, Unitree, R&D departments, Hangzhou, China </p>
+		<p>closely worked with <a href="https://wyhuai.github.io/info/" target="_blank">Yinhuai Wang</a></p>
+		<em>Topic: Real World Humanoid-Object Interaction</em>
+		</td>
+	</tr>
+	<tr>&nbsp</tr>
+		<tr>&nbsp</tr>
+		<tr>&nbsp</tr>
+		<tr>&nbsp</tr>
+		<tr>&nbsp</tr>
+	<tr>&nbsp</tr>
+		<tr>&nbsp</tr>
+		<tr>&nbsp</tr>
+		<tr>&nbsp</tr>
+		<tr>&nbsp</tr>
+	<tr>
+		<td width="306">
+		<img src="./internship/Microsoft-logo.png" width="255px" style="box-shadow: 4px 4px 8px #ffffff">
+		</td>				
+		<td>
+		<p><b> Microsoft Research Asia </b></p>
+		<p>Apr. 2023 - Mar. 2024, Beijing, China </p>
+		<p>closely worked with <a href="https://www.microsoft.com/en-us/research/people/tianyuhe/" target="_blank">Tianyu He</a> and <a href="https://tan-xu.github.io/" target="_blank">Xu Tan</a> </p>
+		<em>Topic: Talking Head Generation</em>
+		</td>
+	</tr>
+	<tr>&nbsp</tr>
+		<tr>&nbsp</tr>
+		<tr>&nbsp</tr>
+		<tr>&nbsp</tr>
+		<tr>&nbsp</tr>
+	<!--########################-->
+</tbody></table>
+
+<h2 class="section-heading">Education</h2>
+<table id="tbPublications" width="100%">
+	<tbody>
+	<tr>
+		<td width="306">
+		<img src="./education/hkust.png" width="270px" style="box-shadow: 4px 4px 8px #ffffff">
+		</td>				
+		<td>
+			<p><b>The Hong Kong University of Science and Technology, Hong Kong</b></p>
+			<p>PhD Student in Visual Intelligence Lab, HKUST </p>
+			<p>Advisor: <a href="https://cqf.io/">Prof. Qifeng Chen</a> </p>
+			<p>Sep. 2024 - Future</p>
+		</td>
+	</tr>
+
+	<!--########################-->
+	<p></p>
+	<p></p>
+	<p></p>
+	<tr>
+		<td width="306">
+			<img src="./education/pku.png" width="230px" style="box-shadow: 4px 4px 8px #ffffff" >	
+			</td>
+			<td>
+			<p><b>Peking University, China</b></p>
+			<p>Master of Science in Computer Science </p>
+			<p>Advisor: Prof. Jie Chen </p>
+			<p>Sep. 2021 - Jun. 2024 </p>
+		</td>
+	</tr>
+
+	<!--########################-->
+	<p></p>
+	<p></p>
+	<p></p>
+	<tr>
+		<td width="306">
+			<img src="./education/bnu.png" width="250px" style="box-shadow: 4px 4px 8px #ffffff">
+			</td>				
+			<td>
+			<p><b>Beijing Normal Univesity, China</b></p>
+			<p>Bachelor of Management in Information Systems </p>
+			<p>Sep. 2017 - Jun. 2021 <p>
+		</td>
+	</tr>
+</tbody></table>
+
+
+<h2 class="section-heading">Selected Publications</h2>
+<table id="tbPublications" width="100%">
+	<tbody>
+		<!-- <td><b>/*Preprints*/</b>
+			<p></p>
+		</td> -->
+	
+		<!-- ------------------------ -->
+		<tr class="pub-category-row">
+			<td colspan="2"><span class="pub-category">Embodied AI</span></td>
+		</tr>
+		<!--########################-->
+		<tr>
+			<td width="306">
+			<img src="./pub/2026_HumanX.gif" width="285px" style="box-shadow: 4px 4px 8px #888">
+			</td>
+			<td>
+			<p><b> HumanX: Toward Agile and Generalizable Humanoid Interaction Skills from Human Videos </b></p>
+			<em>Preprint Arxiv</em>
+			<p> Yinhuai Wang*, Qihan Zhao*, Yuen Fui Lau*, <b>Runyi Yu</b>, Hok Wai Tsui, Qifeng Chen, Jingbo Wang, Jiangmiao Pang, 
+				Ping Tan</p>
+			<p> [<a href="https://arxiv.org/abs/2602.02473">paper</a>] [<a href="https://wyhuai.github.io/human-x/">project page</a>]
+			</p>
+			</td>
+		</tr>
+		<tr>&nbsp</tr>
+		<tr>&nbsp</tr>
+		<tr>&nbsp</tr>
+		<tr>&nbsp</tr>
+		<tr>&nbsp</tr>
+		<!--########################-->
+		<tr>
+			<td width="306">
+			<img src="./pub/2025_PhysHSI.gif" width="285px" style="box-shadow: 4px 4px 8px #888">
+			</td>
+			<td>
+			<p><b> PhysHSI: Towards a Real-World Generalizable and Natural Humanoid-Scene Interaction System </b></p>
+			<em>Preprint Arxiv</em>
+			<p> Huayi Wang*, Wentao Zhang*, <b>Runyi Yu*</b>, Tao Huang, Junli Ren, Feiyu Jia, Zirui Wang, 
+				Xiaojie Niu, Xiao Chen, Jiahe Chen, Qifeng Chen, Jingbo Wang, Jiangmiao Pang</p>
+			<p> [<a href="https://arxiv.org/abs/2510.11072">paper</a>] [<a href="https://why618188.github.io/physhsi/">project page</a>] [<a href="https://github.com/InternRobotics/PhysHSI">code</a>]
+			</p>
+			</td>
+		</tr>
+		<tr>&nbsp</tr>
+		<tr>&nbsp</tr>
+		<tr>&nbsp</tr>
+		<tr>&nbsp</tr>
+		<tr>&nbsp</tr>
+		<!--########################-->
+		<tr>
+			<td width="306">
+			<img src="./pub/2025_Switch.gif" width="285px" style="box-shadow: 4px 4px 8px #888">
+			</td>
+			<td>
+			<p><b> Switch: Learning Agile Skills Switching for Humanoid Robots </b></p>
+			<em>ICRA 2026</em>
+			<p> Yuen Fui Lau*, Qihan Zhao*, Yinhuai Wang*(project lead), <b>Runyi Yu</b>, Hok Wai Tsui, Qifeng Chen, Ping Tan</p>
+			<p> [<a href="">paper</a>] [<a href="">project page</a>]
+			</p>
+			</td>
+		</tr>
+		<tr>&nbsp</tr>
+		<tr>&nbsp</tr>
+		<tr>&nbsp</tr>
+		<tr>&nbsp</tr>
+		<tr>&nbsp</tr>
+		<!--########################-->
+		<tr>
+			<td width="306">
+			<img src="./pub/2025_hot.gif" width="285px" style="box-shadow: 4px 4px 8px #888">
+			</td>
+			<td>
+			<p><b> HOT: Learning Generalizable Hand-Object Tracking from Synthetic Demonstrations </b></p>
+			<em>Preprint Arxiv</em>
+			<p> Yinhuai Wang*, <b>Runyi Yu*</b>, Hok Wai Tsui*, Xiaoyi Lin*, Hui Zhang, Qihan Zhao, Ke Fan,Miao Li, Jie Song, Jingbo Wang, Qifeng Chen, Ping Tan</p>
+			<p> [<a href="https://arxiv.org/abs/2512.19583">paper</a>] [<a href="https://ingrid789.github.io/hot/">project page</a>] [<a href="https://github.com/wyhuai/Hand-Object-Tracking">code</a>]
+			</p>
+			</td>
+		</tr>
+		<tr>&nbsp</tr>
+		<tr>&nbsp</tr>
+		<tr>&nbsp</tr>
+		<tr>&nbsp</tr>
+		<tr>&nbsp</tr>
+		<!--########################-->
+		<tr>
+			<td width="306">
+			<img src="./pub/2025_SkillMimicV2.gif" width="285px" style="box-shadow: 4px 4px 8px #888">
+			</td>
+			<td>
+			<p><b> SkillMimic-V2: Learning Robust and Generalizable Interaction Skills from Sparse and Noisy Demonstrations </b></p>
+			<em>SIGGRAPH 2025</em>
+			<p> <b>Runyi Yu*</b>, Yinhuai Wang*, Qihan Zhao*, Hok Wai Tsui, Jingbo Wang, Ping Tan, Qifeng Chen</p>
+			<p> [<a href="https://arxiv.org/abs/2505.02094">paper</a>] [<a href="https://ingrid789.github.io/SkillMimicV2/">project page</a>] [<a href="https://github.com/Ingrid789/SkillMimic-V2">code</a>]
+			</p>
+			</td>
+		</tr>
+		<tr>&nbsp</tr>
+		<tr>&nbsp</tr>
+		<tr>&nbsp</tr>
+		<tr>&nbsp</tr>
+		<tr>&nbsp</tr>
+		<!--########################-->
+		<tr>
+			<td width="306">
+			<img src="./pub/2024_SkillMimic.gif" width="285px" style="box-shadow: 4px 4px 8px #888">
+			</td>
+			<td>
+			<p><b> SkillMimic: Learning Basketball Interaction Skills from Demonstrations </b></p>
+			🏆 <em>CVPR 2025 Highlight</em>
+			<p> Yinhuai Wang*, Qihan Zhao*, <b>Runyi Yu*</b>, Hok Wai Tsui, Ailing Zeng, Jing Lin, Zhengyi Luo, Jiwen Yu, Xiu Li, Qifeng Chen, Jian Zhang, Lei Zhang, Ping Tan</p>
+			<p> [<a href="https://arxiv.org/abs/2406.08096">paper</a>] [<a href="https://ingrid789.github.io/SkillMimic/">project page</a>] [<a href="https://github.com/wyhuai/SkillMimic">code</a>]
+			</p>
+			</td>
+		</tr>
+		<tr>&nbsp</tr>
+		<tr>&nbsp</tr>
+		<tr>&nbsp</tr>
+		<tr>&nbsp</tr>
+		<tr>&nbsp</tr>
+
+		<tr class="pub-category-row">
+			<td colspan="2"><span class="pub-category">Talking Head</span></td>
+		</tr>
+		<!--########################-->
+		<tr>
+			<td width="306">
+			<img src="./pub/2024_MyTalk.gif" width="285px" style="box-shadow: 4px 4px 8px #888">
+			</td>
+			<td>
+			<p><b>Make Your Actor Talk: Generalizable and High-Fidelity Lip Sync with Motion and Appearance Disentanglement </b></p>
+			<em>Preprint Arxiv</em>
+			<p> <b>Runyi Yu</b>, Tianyu He, Ailing Zhang, Yuchi Wang, Junliang Guo, Xu Tan, Chang Liu, Jie Chen, Jiang Bian </p>
+			<p> [<a href="https://arxiv.org/abs/2406.08096">paper</a>] [<a href="https://ingrid789.github.io/MyTalk/">project page</a>]
+			</p>
+			</td>
+		</tr>
+		<tr>&nbsp</tr>
+		<tr>&nbsp</tr>
+		<tr>&nbsp</tr>
+		<tr>&nbsp</tr>
+		<tr>&nbsp</tr>
+		<!--########################-->
+		<!-- <tr>
+			<td width="306">
+			<img src="./pub/2024_Instruct.gif" width="285px" style="box-shadow: 4px 4px 8px #888">
+			</td>
+			<td>
+			<p><b>InstructAvatar: Text-Guided Emotion and Motion Control for Avatar Generation </b></p>
+			<em>ECCV 2024</em>
+			<p> Yuchi Wang, Junliang Guo, Jianhong Bai, <b>Runyi Yu</b>, Tianyu He, Xu Tan, Xu Sun, Jiang Bian </p>
+			<p> [<a href="https://arxiv.org/abs/2405.15758">paper</a>] [<a href="https://wangyuchi369.github.io/InstructAvatar/">project page</a>]
+			</p>
+			</td>
+		</tr>
+		<tr>&nbsp</tr>
+		<tr>&nbsp</tr>
+		<tr>&nbsp</tr>
+		<tr>&nbsp</tr>
+		<tr>&nbsp</tr> -->
+		<!--########################-->
+		<tr>
+			<td width="306">
+			<img src="./pub/2024_GAIA.gif" width="285px" style="box-shadow: 4px 4px 8px #888">
+			</td>
+			<td>
+			<p><b>GAIA: Data-driven Zero-shot Talking Avatar Generation</b></p>
+			<p> Tianyu He*, Junliang Guo*, <b>Runyi Yu*</b>, Yuchi Wang*, Jialiang Zhu, Kaikai An, Leyi Li, Xu Tan, Chunyu Wang, Han Hu, HsiangTao Wu, Sheng Zhao, Jiang Bian </p>
+			<em>ICLR 2024</em>
+			<p> [<a href="https://arxiv.org/abs/2311.15230">paper</a>] [<a href="https://gaiavatar.github.io/gaia/">project page</a>]
+			</p>
+			</td>
+		</tr>
+		<tr>&nbsp</tr>
+		<tr>&nbsp</tr>
+		<tr>&nbsp</tr>
+		<tr>&nbsp</tr>
+		<tr>&nbsp</tr>
+		
+		<tr class="pub-category-row">
+			<td colspan="2"><span class="pub-category">Computer Vision</span></td>
+		</tr>
+		<!--########################-->
+		<tr>
+			<td width="306">
+			<img src="./pub/2023_LaPE.png" width="285px" style="box-shadow: 4px 4px 8px #888">
+			</td>
+			<td>
+			<p><b>LaPE: Layer-adaptive Position Embedding for Vision Transformers with Independent Layer Normalization</b></p>
+			<p> <b>Runyi Yu*</b>, Zhennan Wang*, Yinhuai Wang*, Kehan Li, Chang Liu, Haoyi Duan, Xiangyang Ji, Jie Chen </p>
+			<em>ICCV 2023</em>
+			<p> [<a href="https://openaccess.thecvf.com/content/ICCV2023/papers/Yu_LaPE_Layer-adaptive_Position_Embedding_for_Vision_Transformers_with_Independent_Layer_ICCV_2023_paper.pdf">paper</a>] [<a href="https://github.com/Ingrid725/LaPE">code</a>] 
+			</p>
+			</td>
+		</tr>
+		<tr>&nbsp</tr>
+		<tr>&nbsp</tr>
+		<tr>&nbsp</tr>
+		<tr>&nbsp</tr>
+		<tr>&nbsp</tr>
+		
+		<!--########################-->
+		<!-- <tr>
+			<td width="306">
+			<img src="./pub/2023_ACSeg.png" width="285px" style="box-shadow: 4px 4px 8px #888">
+			</td>
+			<td>
+			<p><b>ACSeg: Adaptive Conceptualization for Unsupervised Semantic Segmentation</b></p>
+			<p> Kehan Li, Zhennan Wang, Zesen Cheng, <b>Runyi Yu</b>, Yian Zhao, Guoli Song, Chang Liu, Li Yuan, Jie Chen </p>
+			🏆<em>CVPR 2023 Highlight</i></em>
+			<p> [<a href="https://openaccess.thecvf.com/content/CVPR2023/papers/Li_ACSeg_Adaptive_Conceptualization_for_Unsupervised_Semantic_Segmentation_CVPR_2023_paper.pdf">paper</a>] [<a href="https://lkhl.github.io/ACSeg/">project page</a>]
+			</p>
+			</td>
+		</tr>
+		<tr>&nbsp</tr>
+		<tr>&nbsp</tr>
+		<tr>&nbsp</tr>
+		<tr>&nbsp</tr>
+		<tr>&nbsp</tr> -->
+		
+		<!--########################-->
+		<!-- <tr>
+			<td width="306">
+			<img src="./pub/2023_Unlimited.png" width="285px" style="box-shadow: 4px 4px 8px #888">
+			</td>
+			<td>
+			<p><b>Unlimited-Size Diffusion Restoration</b></p>
+			<p> Yinhuai Wang, Jiwen Yu, <b>Runyi Yu</b>, Jian Zhang </p>
+			🏆<em>CVPR Workshop 2023 Oral</em>
+			<p> [<a href="https://openaccess.thecvf.com/content/CVPR2023W/NTIRE/papers/Wang_Unlimited-Size_Diffusion_Restoration_CVPRW_2023_paper.pdf">paper</a>] [<a href="https://github.com/wyhuai/DDNM/tree/main/hq_demo">code</a>] 
+			</p>
+			</td>
+		</tr>
+		<tr>&nbsp</tr>
+		<tr>&nbsp</tr>
+		<tr>&nbsp</tr>
+		<tr>&nbsp</tr>
+		<tr>&nbsp</tr> -->
+		
+		<!--########################-->
+		<tr>
+			<td width="306">
+			<img src="./pub/2022_Locality.png" width="285px" style="box-shadow: 4px 4px 8px #888">
+			</td>
+			<td>
+			<p><b>Locality guidance for improving vision transformers on tiny datasets</b></p>
+			<p> Kehan Li*, <b>Runyi Yu*</b>, Zhennan Wang, Li Yuan, Guoli Song, Jie Chen</p>
+			<em>ECCV 2022</em>
+			<p> [<a href="https://arxiv.org/pdf/2207.10026">paper</a>] [<a href="https://github.com/lkhl/tiny-transformers">code</a>]
+			</p>
+			</td>
+		</tr>
+		<tr>&nbsp</tr>
+		<tr>&nbsp</tr>
+		<tr>&nbsp</tr>
+		<tr>&nbsp</tr>
+		<tr>&nbsp</tr>
+	</tbody>
+</table>
+
+<h2 class="section-heading">Community Services</h2>
+<div class="community-services">
+	<ul class="service-list">
+		<li>
+			<div class="service-title">Conference Reviewer</div>
+			<div class="service-item-group">
+				<a class="service-tag tag-cvpr" href="https://cvpr.thecvf.com/" target="_blank">CVPR 2026</a>
+				<a class="service-tag tag-aaai" href="https://aaai.org/conference/aaai/" target="_blank">AAAI 2026</a>
+				<a class="service-tag tag-neurips" href="https://neurips.cc/" target="_blank">NeurIPS 2025</a>
+				<a class="service-tag tag-iccv" href="https://iccv.thecvf.com/" target="_blank">ICCV 2025</a>
+				<a class="service-tag tag-ijcai" href="https://ijcai.org/" target="_blank">IJCAI [2024, 2025]</a>
+			</div>
+		</li>
+		<li>
+			<div class="service-title">Journal Reviewer</div>
+			<div class="service-item-group">
+				<a class="service-tag tag-journal" href="https://signalprocessingsociety.org/publications-resources/ieee-transactions-multimedia" target="_blank">IEEE Transactions on Multimedia (TMM)</a>
+			</div>
+		</li>
+	</ul>
+</div>
+
+<div id="footer">
+	<div id="footer-text"></div>
+</div>
+
+<br>
+<br>
+<div style="width: 50%; height: auto; margin: auto;">
+	<script type="text/javascript" id="clustrmaps" src="//clustrmaps.com/map_v2.js?d=EnM8Dv_R4BwPuoOt8KTjf5RG332ti_DNDbS9_-0YE78&cl=ffffff&w=a"></script>
+</div>
+<p><center> &copy; Ingrid Yu </center></p>
+
+<script type="text/javascript">
+	(function () {
+		var layout = document.getElementById("layout-content");
+		var headings = Array.prototype.slice.call(document.querySelectorAll(".section-heading"));
+		if (!headings.length) {
+			return;
+		}
+
+		function clearFocusHeading() {
+			for (var i = 0; i < headings.length; i++) {
+				headings[i].classList.remove("section-focus");
+			}
+		}
+
+		function setFocusHeadingByMouse(event) {
+			if (!layout) {
+				return;
+			}
+
+			var footer = document.getElementById("footer");
+			if (footer) {
+				var footerRect = footer.getBoundingClientRect();
+				if (event.clientY >= footerRect.top) {
+					clearFocusHeading();
+					return;
+				}
+			}
+
+			var hoverY = window.scrollY + event.clientY;
+			var focusIndex = -1;
+
+			for (var i = 0; i < headings.length; i++) {
+				var currentTop = headings[i].offsetTop;
+				var nextTop = i < headings.length - 1 ? headings[i + 1].offsetTop : (footer ? footer.offsetTop : document.body.scrollHeight);
+
+				if (hoverY >= currentTop && hoverY < nextTop) {
+					focusIndex = i;
+					break;
+				}
+			}
+
+			for (var j = 0; j < headings.length; j++) {
+				if (j === focusIndex) {
+					headings[j].classList.add("section-focus");
+				} else {
+					headings[j].classList.remove("section-focus");
+				}
+			}
+		}
+
+		function setActiveHeading() {
+			var anchorY = window.scrollY + window.innerHeight * 0.3;
+			var activeIndex = 0;
+
+			for (var i = 0; i < headings.length; i++) {
+				var currentTop = headings[i].offsetTop;
+				var nextTop = i < headings.length - 1 ? headings[i + 1].offsetTop : document.body.scrollHeight;
+
+				if (anchorY >= currentTop && anchorY < nextTop) {
+					activeIndex = i;
+					break;
+				}
+
+				if (anchorY >= currentTop) {
+					activeIndex = i;
+				}
+			}
+
+			for (var j = 0; j < headings.length; j++) {
+				if (j === activeIndex) {
+					headings[j].classList.add("section-active");
+				} else {
+					headings[j].classList.remove("section-active");
+				}
+			}
+		}
+
+		if (layout) {
+			layout.addEventListener("mousemove", setFocusHeadingByMouse);
+			layout.addEventListener("mouseleave", clearFocusHeading);
+		}
+
+		window.addEventListener("scroll", setActiveHeading, { passive: true });
+		window.addEventListener("resize", setActiveHeading);
+		window.addEventListener("load", setActiveHeading);
+		setActiveHeading();
+	})();
+</script>
+
+</div>
+</body></html>
