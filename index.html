@@ -16,6 +16,7 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 
   <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="assets/icon.png" type="image/png">
 </head>
 
 <body>
@@ -33,7 +34,7 @@
       <li><a href="#education">Education</a></li>
       <li><a href="#publications">Publications</a></li>
       <li><a href="#internship">Internship</a></li>
-      <li><a href="#awards">Awards</a></li>
+      <!-- <li><a href="#awards">Awards</a></li> -->
       <li><a href="#service">Service</a></li>
     </ul>
   </div>
@@ -346,7 +347,7 @@
 
     <div class="exp-item">
       <div class="exp-logo">
-        <img src="assets/logos/kuaishou.png" alt="Kuaishou" onerror="this.style.display='none'">
+        <img src="assets/logos/kuaishou.png" alt="Kuaishou" class="logo-compact" onerror="this.style.display='none'">
         <span class="exp-logo-fallback">Kling (可灵) Kuaishou Technology</span>
       </div>
       <div class="exp-info">
@@ -422,6 +423,12 @@
   </section>
 
 </main>
+
+<!-- ===================== LIGHTBOX ===================== -->
+<div class="lb-overlay" id="lbOverlay">
+  <span class="lb-close" id="lbClose">&times;</span>
+  <img id="lbImg" src="" alt="">
+</div>
 
 <!-- ===================== FOOTER ===================== -->
 <footer>
@@ -509,6 +516,29 @@
     });
   }, { threshold: 0.5 });
   headings.forEach(h => headingObserver.observe(h));
+
+  // ── Lightbox ────────────────────────────────────────────
+  const lbOverlay = document.getElementById('lbOverlay');
+  const lbImg     = document.getElementById('lbImg');
+  const lbClose   = document.getElementById('lbClose');
+
+  document.querySelectorAll('.pub-img img').forEach(img => {
+    img.addEventListener('click', () => {
+      lbImg.src = img.src;
+      lbImg.alt = img.alt;
+      lbOverlay.classList.add('open');
+      document.body.style.overflow = 'hidden';
+    });
+  });
+
+  function closeLb() {
+    lbOverlay.classList.remove('open');
+    lbImg.src = '';
+    document.body.style.overflow = '';
+  }
+  lbClose.addEventListener('click', closeLb);
+  lbOverlay.addEventListener('click', e => { if (e.target === lbOverlay) closeLb(); });
+  document.addEventListener('keydown', e => { if (e.key === 'Escape') closeLb(); });
 </script>
 
 </body>
