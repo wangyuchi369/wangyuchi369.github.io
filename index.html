@@ -340,7 +340,7 @@
           <a href="https://ydk122024.github.io/" target="_blank">Dingkang Yang</a>, <a href="https://scholar.google.com/citations?user=UdARxSMAAAAJ&hl=zh-CN" target="_blank">Haiyang Yu</a>
           and <a href="https://scholar.google.com/citations?user=FRW7i80AAAAJ&hl=zh-CN" target="_blank">Xiao Liang</a>
         </div>
-        <em>Topic: Multimodal Rerepresentation, MLLM, Recommendation</em>
+        <em>Topic: Multimodal Representation, MLLM, Recommendation</em>
       </div>
     </div>
 
@@ -458,16 +458,23 @@
       const op    = (opMin + Math.random() * (1 - opMin)).toFixed(2);
       const dur   = (2.5 + Math.random() * 5).toFixed(1);
       const delay = (Math.random() * 8).toFixed(1);
-      // 3px stars get a soft glow
+      // occasional colored stars: pale-blue, warm-gold, soft-lavender
+      const colorRoll = Math.random();
+      const starColor = size === 3
+        ? (colorRoll > 0.66 ? '#b8d8ff' : colorRoll > 0.33 ? '#ffeac0' : '#d4c8ff')
+        : '#ffffff';
+      const glowColor = size === 3
+        ? (colorRoll > 0.66 ? 'rgba(140,200,255,0.55)' : colorRoll > 0.33 ? 'rgba(255,210,120,0.45)' : 'rgba(180,160,255,0.45)')
+        : 'rgba(200,220,255,0.3)';
       const glow  = size === 3
-        ? `box-shadow:0 0 4px 1px rgba(200,220,255,0.6);`
-        : size === 2 ? `box-shadow:0 0 2px rgba(200,220,255,0.3);` : '';
+        ? `box-shadow:0 0 5px 1px ${glowColor};`
+        : size === 2 ? `box-shadow:0 0 2px ${glowColor};` : '';
       s.style.cssText =
         `position:absolute;` +
         `left:${(Math.random()*100).toFixed(2)}%;` +
         `top:${(Math.random()*100).toFixed(2)}%;` +
         `width:${size}px;height:${size}px;border-radius:50%;` +
-        `background:#fff;opacity:${op};` +
+        `background:${starColor};opacity:${op};` +
         `${glow}` +
         `animation:twinkle ${dur}s ${delay}s ease-in-out infinite alternate;` +
         `pointer-events:none`;

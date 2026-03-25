@@ -8,7 +8,7 @@
 html { scroll-behavior: smooth; font-size: 17px; }
 body {
   font-family: 'Inter', system-ui, -apple-system, sans-serif;
-  color: #1f2937; background: #fff; line-height: 1.8;
+  color: #1f2937; background: #f2f6fb; line-height: 1.8;
 }
 a { color: #3D70B2; text-decoration: none; transition: color 0.2s; }
 a:hover { color: #2558A0; }
@@ -24,14 +24,14 @@ p:last-child { margin-bottom: 0; }
 /* ── Navbar ────────────────────────────────── */
 #navbar {
   position: fixed; top: 0; left: 0; right: 0; z-index: 1000;
-  background: rgba(5,9,20,0.72); backdrop-filter: blur(14px);
+  background: rgba(10,22,54,0.70); backdrop-filter: blur(14px);
   -webkit-backdrop-filter: blur(14px);
-  border-bottom: 1px solid rgba(255,255,255,0.05);
+  border-bottom: 1px solid rgba(255,255,255,0.07);
   transition: background 0.3s, box-shadow 0.3s;
 }
 #navbar.scrolled {
-  background: rgba(4,8,18,0.96);
-  box-shadow: 0 2px 28px rgba(0,0,0,0.35);
+  background: rgba(8,18,48,0.94);
+  box-shadow: 0 2px 24px rgba(30,60,140,0.18);
 }
 .nav-inner {
   max-width: 1120px; margin: 0 auto;
@@ -68,13 +68,20 @@ p:last-child { margin-bottom: 0; }
 .hero-bg {
   position: absolute; inset: 0;
   background:
-    radial-gradient(ellipse at 25% 55%, rgba(40,85,170,0.35) 0%, transparent 52%),
-    radial-gradient(ellipse at 78% 18%, rgba(20,55,130,0.28) 0%, transparent 48%),
-    radial-gradient(ellipse at 60% 80%, rgba(10,35,90,0.2) 0%, transparent 45%),
-    #04080F;
+    radial-gradient(ellipse at 20% 40%, rgba(80,130,230,0.30) 0%, transparent 50%),
+    radial-gradient(ellipse at 75% 15%, rgba(100,80,200,0.22) 0%, transparent 45%),
+    radial-gradient(ellipse at 55% 75%, rgba(30,90,180,0.25) 0%, transparent 48%),
+    radial-gradient(ellipse at 90% 60%, rgba(60,160,200,0.15) 0%, transparent 40%),
+    #0b1835;
   z-index: 0; overflow: hidden;
 }
-@keyframes twinkle { to { opacity: 0.03; transform: scale(0.6); } }
+/* Bottom fade: hero seamlessly blends into the page background */
+.hero-bg::after {
+  content: ""; position: absolute; bottom: 0; left: 0; right: 0;
+  height: 16px; pointer-events: none;
+  background: linear-gradient(to bottom, transparent 0%, rgba(242,246,251,0.85) 100%);
+}
+@keyframes twinkle { to { opacity: 0.04; transform: scale(0.55); } }
 
 .hero-content {
   position: relative; z-index: 1;
@@ -191,7 +198,7 @@ section { padding-top: 56px; }
 }
 .news-box ul { list-style: none; padding: 0; }
 .news-box li {
-  padding: 8px 0; border-bottom: 1px solid #f0f1f4;
+  padding: 8px 0; border-bottom: 1px solid #dde5f0;
   font-size: 0.97rem; line-height: 1.6;
 }
 .news-box li:last-child { border-bottom: none; }
@@ -214,7 +221,7 @@ section { padding-top: 56px; }
 
 .pub-item {
   display: flex; gap: 28px; padding: 26px 0;
-  border-bottom: 1px solid #e8eaf0; align-items: flex-start;
+  border-bottom: 1px solid #dce4f0; align-items: flex-start;
 }
 .pub-item:last-of-type { border-bottom: none; }
 
@@ -280,7 +287,7 @@ section { padding-top: 56px; }
 /* ── Education & Internship (flat) ─────────── */
 .exp-item {
   display: flex; align-items: flex-start; gap: 28px;
-  padding: 24px 0; border-bottom: 1px solid #e8eaf0;
+  padding: 24px 0; border-bottom: 1px solid #dce4f0;
 }
 .exp-item:last-of-type { border-bottom: none; }
 .exp-logo {
@@ -331,7 +338,7 @@ section { padding-top: 56px; }
 .service-block .service-role:first-child { margin-top: 0; }
 .service-block .service-role:not(:first-child) {
   margin-top: 28px; padding-top: 20px;
-  border-top: 1px solid #e8eaf0;
+  border-top: 1px solid #dce4f0;
 }
 .service-tags { display: flex; flex-wrap: wrap; gap: 7px; }
 .stag {
@@ -354,7 +361,7 @@ section { padding-top: 56px; }
 .ta-list { list-style: none; padding: 0; display: flex; flex-direction: column; gap: 4px; }
 .ta-list li {
   font-size: 0.93rem; color: #374151; padding: 7px 0;
-  border-bottom: 1px solid #f0f1f4;
+  border-bottom: 1px solid #dde5f0;
   display: flex; align-items: baseline; flex-wrap: wrap; gap: 4px;
 }
 .ta-list li:last-child { border-bottom: none; }
@@ -386,8 +393,8 @@ section { padding-top: 56px; }
 /* ── Footer ────────────────────────────────── */
 footer {
   margin-top: 64px; padding: 24px 48px;
-  text-align: center; font-size: 0.83rem; color: #aaa;
-  border-top: 1px solid #e8eaf0; background: #fafbfd;
+  text-align: center; font-size: 0.83rem; color: #9aaabf;
+  border-top: 1px solid #dce4f0; background: #eaf0f8;
 }
 footer a { color: #c0c8d8; }
 footer a:hover { color: #3D70B2; }
